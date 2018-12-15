@@ -1,0 +1,3465 @@
+{
+    "Acceleration": {
+        "arg_number": 86,
+        "controller": "Acceleration",
+        "input": [
+            "-5.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AccelerationMax": {
+        "arg_number": 87,
+        "controller": "AccelerationMax",
+        "input": [
+            "-5.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AccelerationMin": {
+        "arg_number": 88,
+        "controller": "AccelerationMin",
+        "input": [
+            "-5.0",
+            "1.0"
+        ],
+        "output": [
+            "0.31",
+            "0.695"
+        ]
+    },
+    "AftCanopyNotClosed": {
+        "arg_number": 351,
+        "controller": "AftCanopyNotClosed",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftCockpitPressure_lamp": {
+        "arg_number": 352,
+        "controller": "AftCockpitPressure_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftConditioningClosed_lamp": {
+        "arg_number": 361,
+        "controller": "AftConditioningClosed_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftCptInstrumentLightsIntensity": {
+        "arg_number": 559,
+        "controller": "AftCptInstrumentLightsIntensity",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftDefrost_lamp": {
+        "arg_number": 363,
+        "controller": "AftDefrost_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftDoNotStart_lamp": {
+        "arg_number": 348,
+        "controller": "AftDoNotStart_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftEmptyWingFuelTanks_lamp": {
+        "arg_number": 354,
+        "controller": "AftEmptyWingFuelTanks_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftFire_lamp": {
+        "arg_number": 342,
+        "controller": "AftFire_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftFlowBlinker": {
+        "arg_number": 478,
+        "controller": "AftFlowBlinker",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftFuelFilter_lamp": {
+        "arg_number": 364,
+        "controller": "AftFuelFilter_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftHydraulicPressureDrop_lamp": {
+        "arg_number": 346,
+        "controller": "AftHydraulicPressureDrop_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftIce_lamp": {
+        "arg_number": 360,
+        "controller": "AftIce_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftMasterDanger_lamp": {
+        "arg_number": 455,
+        "controller": "AftMasterDanger_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftOxygenPressure": {
+        "arg_number": 477,
+        "controller": "AftOxygenPressure",
+        "input": [
+            "0.0",
+            "10.0",
+            "150.0",
+            "160.0"
+        ],
+        "output": [
+            "0.0",
+            "0.025",
+            "0.925",
+            "1.0"
+        ]
+    },
+    "AftRadioUnderControl_lamp": {
+        "arg_number": 565,
+        "controller": "AftRadioUnderControl_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftRemain150_lamp": {
+        "arg_number": 345,
+        "controller": "AftRemain150_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftVibration_lamp": {
+        "arg_number": 349,
+        "controller": "AftVibration_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AftWingTanks_lamp": {
+        "arg_number": 355,
+        "controller": "AftWingTanks_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AirBrakes2_lamp": {
+        "arg_number": 436,
+        "controller": "AirBrakesLampAft",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AirBrakes_lamp": {
+        "arg_number": 117,
+        "controller": "AirBrakesLampFwd",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Altimeter_10000_footCount": {
+        "arg_number": 632,
+        "controller": "Altimeter_Drum_Counter",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "2"
+        ]
+    },
+    "Altimeter_10000_footCount_2": {
+        "arg_number": 732,
+        "controller": "Altimeter_Drum_Counter_2",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "2"
+        ]
+    },
+    "Altimeter_1000_footCount": {
+        "arg_number": 631,
+        "controller": "Altimeter_Drum_Counter",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "1"
+        ]
+    },
+    "Altimeter_1000_footCount_2": {
+        "arg_number": 731,
+        "controller": "Altimeter_Drum_Counter_2",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "1"
+        ]
+    },
+    "Altimeter_100_footCount": {
+        "arg_number": 630,
+        "controller": "Altimeter_Drum_Counter",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "0"
+        ]
+    },
+    "Altimeter_100_footCount_2": {
+        "arg_number": 730,
+        "controller": "Altimeter_Drum_Counter_2",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "0"
+        ]
+    },
+    "Altimeter_100_footPtr": {
+        "arg_number": 637,
+        "controller": "Altimeter_100_footPtr",
+        "input": [
+            "0.0",
+            "1000.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Altimeter_100_footPtr_2": {
+        "arg_number": 737,
+        "controller": "Altimeter_100_footPtr_2",
+        "input": [
+            "0.0",
+            "1000.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Ampermeter": {
+        "arg_number": 93,
+        "controller": "Ampermeter",
+        "input": [
+            "-100.0",
+            "300.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "AuxHydro_PRESS": {
+        "arg_number": 200,
+        "controller": "AuxHydroPress",
+        "input": [
+            "0.0",
+            "200.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "BackCanopy": {
+        "arg_number": 140,
+        "external_arg": "421",
+        "input": [
+            "0",
+            "1"
+        ],
+        "output": [
+            "0",
+            "1"
+        ]
+    },
+    "BackSeat": {
+        "arg_number": 568,
+        "external_arg": "472",
+        "input": [
+            "0",
+            "0.99",
+            "1"
+        ],
+        "output": [
+            "0",
+            "0",
+            "1"
+        ]
+    },
+    "BrakeAuxHydro_PRESS": {
+        "arg_number": 100,
+        "controller": "BrakeAuxHydroPress",
+        "input": [
+            "0.0",
+            "60.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "BrakeHandle": {
+        "arg_number": 127,
+        "controller": "BrakeHandle",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "BrakeHandle_CPT2": {
+        "arg_number": 542,
+        "controller": "BrakeHandle_CPT2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "BrakeLMainHydro_PRESS": {
+        "arg_number": 98,
+        "controller": "BrakeLMainHydroPress",
+        "input": [
+            "0.0",
+            "60.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "BrakeRMainHydro_PRESS": {
+        "arg_number": 99,
+        "controller": "BrakeRMainHydroPress",
+        "input": [
+            "0.0",
+            "60.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "BreakdownFinished_CPT2_lamp": {
+        "arg_number": 356,
+        "controller": "BreakdownFinishedLampAft",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "BreakdownFinished_lamp": {
+        "arg_number": 15,
+        "controller": "BreakdownFinishedLampFwd",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CLOCK_2_currtime_hours": {
+        "arg_number": 405,
+        "controller": "CLOCK_2_currtime_hours",
+        "input": [
+            "0.0",
+            "12.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CLOCK_2_currtime_minutes": {
+        "arg_number": 406,
+        "controller": "CLOCK_2_currtime_minutes",
+        "input": [
+            "0.0",
+            "60.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CLOCK_2_flight_hours": {
+        "arg_number": 409,
+        "controller": "CLOCK_2_flight_hours",
+        "input": [
+            "0.0",
+            "12.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CLOCK_2_flight_minutes": {
+        "arg_number": 410,
+        "controller": "CLOCK_2_flight_minutes",
+        "input": [
+            "0.0",
+            "60.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CLOCK_2_flight_time_meter_status": {
+        "arg_number": 411,
+        "controller": "CLOCK_2_flight_time_meter_status",
+        "input": [
+            "0.0",
+            "0.2"
+        ],
+        "output": [
+            "0.0",
+            "0.2"
+        ]
+    },
+    "CLOCK_2_seconds_meter_time_minutes": {
+        "arg_number": 407,
+        "controller": "CLOCK_2_seconds_meter_time_minutes",
+        "input": [
+            "0.0",
+            "5.0",
+            "10.0",
+            "15.0",
+            "20.0",
+            "25.0",
+            "30.0"
+        ],
+        "output": [
+            "0.0",
+            "0.161",
+            "0.317",
+            "0.499",
+            "0.675",
+            "0.843",
+            "1.0"
+        ]
+    },
+    "CLOCK_2_seconds_meter_time_seconds": {
+        "arg_number": 408,
+        "controller": "CLOCK_2_seconds_meter_time_seconds",
+        "input": [
+            "0.0",
+            "60.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CLOCK_currtime_hours": {
+        "arg_number": 67,
+        "controller": "CLOCK_currtime_hours",
+        "input": [
+            "0.0",
+            "12.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CLOCK_currtime_minutes": {
+        "arg_number": 68,
+        "controller": "CLOCK_currtime_minutes",
+        "input": [
+            "0.0",
+            "60.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CLOCK_flight_hours": {
+        "arg_number": 71,
+        "controller": "CLOCK_flight_hours",
+        "input": [
+            "0.0",
+            "12.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CLOCK_flight_minutes": {
+        "arg_number": 72,
+        "controller": "CLOCK_flight_minutes",
+        "input": [
+            "0.0",
+            "60.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CLOCK_flight_time_meter_status": {
+        "arg_number": 73,
+        "controller": "CLOCK_flight_time_meter_status",
+        "input": [
+            "0.0",
+            "0.2"
+        ],
+        "output": [
+            "0.0",
+            "0.2"
+        ]
+    },
+    "CLOCK_seconds_meter_time_minutes": {
+        "arg_number": 69,
+        "controller": "CLOCK_seconds_meter_time_minutes",
+        "input": [
+            "0.0",
+            "5.0",
+            "10.0",
+            "15.0",
+            "20.0",
+            "25.0",
+            "30.0"
+        ],
+        "output": [
+            "0.0",
+            "0.161",
+            "0.317",
+            "0.499",
+            "0.675",
+            "0.843",
+            "1.0"
+        ]
+    },
+    "CLOCK_seconds_meter_time_seconds": {
+        "arg_number": 70,
+        "controller": "CLOCK_seconds_meter_time_seconds",
+        "input": [
+            "0.0",
+            "60.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CockpitAltAft": {
+        "arg_number": 550,
+        "controller": "CockpitAltitude",
+        "input": [
+            "0.0",
+            "20000.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CockpitAltFwd": {
+        "arg_number": 95,
+        "controller": "CockpitAltitude",
+        "input": [
+            "0.0",
+            "20000.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "CompassLightIntensity": {
+        "arg_number": 558,
+        "controller": "CompassLightIntensity",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Compressor_RPM": {
+        "arg_number": 84,
+        "controller": "Compressor_RPM",
+        "input": [
+            "0.0",
+            "10.0",
+            "20.0",
+            "30.0",
+            "40.0",
+            "50.0",
+            "60.0",
+            "70.0",
+            "80.0",
+            "90.0",
+            "100.0",
+            "110.0"
+        ],
+        "output": [
+            "0.0",
+            "0.09",
+            "0.18",
+            "0.28",
+            "0.372",
+            "0.468",
+            "0.555",
+            "0.645",
+            "0.733",
+            "0.822",
+            "0.909",
+            "1.0"
+        ]
+    },
+    "Compressor_RPM_2": {
+        "arg_number": 424,
+        "controller": "Compressor_RPM",
+        "input": [
+            "0.0",
+            "10.0",
+            "20.0",
+            "30.0",
+            "40.0",
+            "50.0",
+            "60.0",
+            "70.0",
+            "80.0",
+            "90.0",
+            "100.0",
+            "110.0"
+        ],
+        "output": [
+            "0.0",
+            "0.09",
+            "0.18",
+            "0.28",
+            "0.372",
+            "0.468",
+            "0.555",
+            "0.645",
+            "0.733",
+            "0.822",
+            "0.909",
+            "1.0"
+        ]
+    },
+    "DangerAltitudeInstructor_lamp": {
+        "arg_number": 343,
+        "controller": "DangerAltitudeInstructor_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "DangerAltitude_lamp": {
+        "arg_number": 2,
+        "controller": "DangerAltitude_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "DoorsOut2_lamp": {
+        "arg_number": 435,
+        "controller": "DoorsOut2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "DoorsOut_lamp": {
+        "arg_number": 116,
+        "controller": "DoorsOut",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "EjectionBlockWire": {
+        "controller": "EjectionBlockWire"
+    },
+    "EmergConditioning_lamp": {
+        "arg_number": 17,
+        "controller": "EmergConditioning_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "EmergFuelAft_lamp": {
+        "arg_number": 365,
+        "controller": "EmergFuelAft_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "EmergFuelFwd_lamp": {
+        "arg_number": 27,
+        "controller": "EmergFuelFwd_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "EmergencyLightIntensity": {
+        "arg_number": 555,
+        "controller": "EmergencyLightIntensity",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "EngineThrottle": {
+        "arg_number": 132,
+        "controller": "base_gauge_ThrottleLeftPosition",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "EngineVibration": {
+        "arg_number": 94,
+        "controller": "EngineVibration",
+        "input": [
+            "0.0",
+            "100.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Engine_Temp": {
+        "arg_number": 90,
+        "controller": "Engine_Temp_Fwd",
+        "input": [
+            "0.0",
+            "900.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Engine_Temp_2": {
+        "arg_number": 426,
+        "controller": "Engine_Temp_Aft",
+        "input": [
+            "0.0",
+            "900.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "ExtendGears2_lamp": {
+        "arg_number": 434,
+        "controller": "ExtendGears2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "ExtendGears_lamp": {
+        "arg_number": 115,
+        "controller": "ExtendGears",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Fan_RPM": {
+        "arg_number": 85,
+        "controller": "Fan_RPM",
+        "input": [
+            "0.0",
+            "10.0",
+            "20.0",
+            "30.0",
+            "40.0",
+            "50.0",
+            "60.0",
+            "70.0",
+            "80.0",
+            "90.0",
+            "100.0",
+            "110.0"
+        ],
+        "output": [
+            "0.0",
+            "0.09",
+            "0.18",
+            "0.28",
+            "0.372",
+            "0.468",
+            "0.555",
+            "0.645",
+            "0.733",
+            "0.822",
+            "0.909",
+            "1.0"
+        ]
+    },
+    "Fan_RPM_2": {
+        "arg_number": 425,
+        "controller": "Fan_RPM",
+        "input": [
+            "0.0",
+            "10.0",
+            "20.0",
+            "30.0",
+            "40.0",
+            "50.0",
+            "60.0",
+            "70.0",
+            "80.0",
+            "90.0",
+            "100.0",
+            "110.0"
+        ],
+        "output": [
+            "0.0",
+            "0.09",
+            "0.18",
+            "0.28",
+            "0.372",
+            "0.468",
+            "0.555",
+            "0.645",
+            "0.733",
+            "0.822",
+            "0.909",
+            "1.0"
+        ]
+    },
+    "FarNDBSelectorLamp": {
+        "arg_number": 561,
+        "controller": "FarBeaconSwitchLamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FarNDBSelectorLamp_CPT2": {
+        "arg_number": 564,
+        "controller": "FarBeaconSwitchLamp_CPT2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FlapsDn2_lamp": {
+        "arg_number": 464,
+        "controller": "FlapsDnLamp2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FlapsDn_lamp": {
+        "arg_number": 280,
+        "controller": "FlapsDnLamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FlapsTO2_lamp": {
+        "arg_number": 463,
+        "controller": "FlapsTOLamp2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FlapsTO_lamp": {
+        "arg_number": 279,
+        "controller": "FlapsTOLamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FlapsUp2_lamp": {
+        "arg_number": 462,
+        "controller": "FlapsUpLamp2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FlapsUp_lamp": {
+        "arg_number": 278,
+        "controller": "FlapsUpLamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FrontCanopy": {
+        "arg_number": 139,
+        "external_arg": "38",
+        "input": [
+            "0",
+            "1"
+        ],
+        "output": [
+            "0",
+            "1"
+        ]
+    },
+    "FrontSeat": {
+        "arg_number": 567,
+        "external_arg": "50",
+        "input": [
+            "0",
+            "0.99",
+            "1"
+        ],
+        "output": [
+            "0",
+            "0",
+            "1"
+        ]
+    },
+    "Fuel_Press": {
+        "arg_number": 81,
+        "controller": "Fuel_Press",
+        "input": [
+            "-1.0",
+            "0.0",
+            "20.0",
+            "40.0",
+            "60.0",
+            "70.0",
+            "80.0",
+            "100.0"
+        ],
+        "output": [
+            "0.0",
+            "0.06",
+            "0.148",
+            "0.323",
+            "0.547",
+            "0.659",
+            "0.801",
+            "1.0"
+        ]
+    },
+    "Fuel_Press_2": {
+        "arg_number": 421,
+        "controller": "Fuel_Press",
+        "input": [
+            "0.0",
+            "0.1",
+            "20.0",
+            "40.0",
+            "60.0",
+            "70.0",
+            "80.0",
+            "100.0"
+        ],
+        "output": [
+            "0.0",
+            "0.044",
+            "0.148",
+            "0.323",
+            "0.547",
+            "0.659",
+            "0.801",
+            "1.0"
+        ]
+    },
+    "Fuel_Quantity": {
+        "arg_number": 91,
+        "controller": "Fuel_Quantity",
+        "input": [
+            "0.0",
+            "100.0",
+            "200.0",
+            "300.0",
+            "400.0",
+            "500.0",
+            "600.0",
+            "700.0",
+            "825.0"
+        ],
+        "output": [
+            "0.0",
+            "0.127",
+            "0.239",
+            "0.35",
+            "0.458",
+            "0.56",
+            "0.685",
+            "0.82",
+            "1.0"
+        ]
+    },
+    "Fuel_Quantity_2": {
+        "arg_number": 427,
+        "controller": "Fuel_Quantity",
+        "input": [
+            "0.0",
+            "825.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdCanopyNotClosed": {
+        "arg_number": 10,
+        "controller": "FwdCanopyNotClosed",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdCockpitPressure_lamp": {
+        "arg_number": 11,
+        "controller": "FwdCockpitPressure_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdConditioningClosed_lamp": {
+        "arg_number": 22,
+        "controller": "FwdConditioningClosed_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdCptInstrumentLightsIntensity": {
+        "arg_number": 553,
+        "controller": "FwdCptInstrumentLightsIntensity",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdDefrost_lamp": {
+        "arg_number": 25,
+        "controller": "FwdDefrost_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdDoNotStart_lamp": {
+        "arg_number": 7,
+        "controller": "FwdDoNotStart_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdEmptyWingFuelTanks_lamp": {
+        "arg_number": 13,
+        "controller": "FwdEmptyWingFuelTanks_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdEngineMinOilPressure_lamp": {
+        "arg_number": 20,
+        "controller": "FwdEngineMinOilPressure_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdEngineTemperature700_lamp": {
+        "arg_number": 28,
+        "controller": "FwdEngineTemperature700_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdEngineTemperature730_lamp": {
+        "arg_number": 24,
+        "controller": "FwdEngineTemperature730_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdFire_lamp": {
+        "arg_number": 1,
+        "controller": "FwdFire_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdFlowBlinker": {
+        "arg_number": 302,
+        "controller": "FwdFlowBlinker",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdFuelFilter_lamp": {
+        "arg_number": 26,
+        "controller": "FwdFuelFilter_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdHydraulicPressureDrop_lamp": {
+        "arg_number": 5,
+        "controller": "FwdHydraulicPressureDrop_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdIce_lamp": {
+        "arg_number": 21,
+        "controller": "FwdIce_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdMasterDanger_lamp": {
+        "arg_number": 253,
+        "controller": "FwdMasterDanger_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdOxygenPressure": {
+        "arg_number": 301,
+        "controller": "FwdOxygenPressure",
+        "input": [
+            "0.0",
+            "10.0",
+            "150.0",
+            "160.0"
+        ],
+        "output": [
+            "0.0",
+            "0.025",
+            "0.925",
+            "1.0"
+        ]
+    },
+    "FwdRadioUnderControl_lamp": {
+        "arg_number": 562,
+        "controller": "FwdRadioUnderControl_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdRemain150_lamp": {
+        "arg_number": 4,
+        "controller": "FwdRemain150_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdVibration_lamp": {
+        "arg_number": 8,
+        "controller": "FwdVibration_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "FwdWingTanks_lamp": {
+        "arg_number": 14,
+        "controller": "FwdWingTanks_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GA_TILT_PU26_lamp": {
+        "arg_number": 206,
+        "controller": "GMK_GA_Tilt_Lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GA_TILT_lamp": {
+        "arg_number": 123,
+        "controller": "GMK_GA_Tilt_Lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GA_TILT_lamp_2": {
+        "arg_number": 443,
+        "controller": "GMK_GA_Tilt_Lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearDown_front2_lamp": {
+        "arg_number": 432,
+        "controller": "GearDown_front2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearDown_front_lamp": {
+        "arg_number": 113,
+        "controller": "GearDown_front",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearDown_left2_lamp": {
+        "arg_number": 431,
+        "controller": "GearDown_left2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearDown_left_lamp": {
+        "arg_number": 112,
+        "controller": "GearDown_left",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearDown_right2_lamp": {
+        "arg_number": 433,
+        "controller": "GearDown_right2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearDown_right_lamp": {
+        "arg_number": 114,
+        "controller": "GearDown_right",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearUp_front2_lamp": {
+        "arg_number": 429,
+        "controller": "GearUp_front2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearUp_front_lamp": {
+        "arg_number": 110,
+        "controller": "GearUp_front",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearUp_left2_lamp": {
+        "arg_number": 428,
+        "controller": "GearUp_left2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearUp_left_lamp": {
+        "arg_number": 109,
+        "controller": "GearUp_left",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearUp_right2_lamp": {
+        "arg_number": 430,
+        "controller": "GearUp_right2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GearUp_right_lamp": {
+        "arg_number": 111,
+        "controller": "GearUp_right",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "GroundPower_lamp": {
+        "arg_number": 316,
+        "controller": "GroundPower_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "HSI2_Alt_Deviation_Bar": {
+        "arg_number": 382,
+        "controller": "RSBN_lateral_deviation_Aft",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-0.8",
+            "0.8"
+        ]
+    },
+    "HSI2_Course_Deviation_Bar": {
+        "arg_number": 384,
+        "controller": "RSBN_long_deviation_Aft",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-0.8",
+            "0.8"
+        ]
+    },
+    "HSI2_Glide_Beacon": {
+        "arg_number": 383,
+        "controller": "RSBN_Glide_Beacon",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "HSI2_Localizer_Beacon": {
+        "arg_number": 381,
+        "controller": "RSBN_Localizer_Beacon",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "HSI2_bearing_needle": {
+        "arg_number": 380,
+        "controller": "HSI_bearing_needle",
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "HSI2_commanded_course_needle": {
+        "arg_number": 379,
+        "controller": "HSI2_commanded_course_needle",
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "HSI2_heading": {
+        "arg_number": 378,
+        "controller": "HSI2_heading",
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ],
+        "output": [
+            "1.0",
+            "0.0"
+        ]
+    },
+    "HSI_Accordance": {
+        "arg_number": 19,
+        "controller": "HSI_manual_accordance",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "HSI_Alt_Deviation_Bar": {
+        "arg_number": 45,
+        "controller": "RSBN_lateral_deviation_Fwd",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-0.8",
+            "0.8"
+        ]
+    },
+    "HSI_Course_Deviation_Bar": {
+        "arg_number": 47,
+        "controller": "RSBN_long_deviation_Fwd",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-0.8",
+            "0.8"
+        ]
+    },
+    "HSI_Glide_Beacon": {
+        "arg_number": 46,
+        "controller": "RSBN_Glide_Beacon",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "HSI_Localizer_Beacon": {
+        "arg_number": 44,
+        "controller": "RSBN_Localizer_Beacon",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "HSI_bearing_needle": {
+        "arg_number": 43,
+        "controller": "HSI_bearing_needle",
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "HSI_commanded_course_needle": {
+        "arg_number": 42,
+        "controller": "HSI_commanded_course_needle",
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ],
+        "output": [
+            "1.0",
+            "0.0"
+        ]
+    },
+    "HSI_heading": {
+        "arg_number": 41,
+        "controller": "HSI_heading",
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ],
+        "output": [
+            "1.0",
+            "0.0"
+        ]
+    },
+    "IAS": {
+        "arg_number": 49,
+        "controller": "IAS",
+        "input": [
+            "0.0",
+            "100.0",
+            "150.0",
+            "200.0",
+            "300.0",
+            "400.0",
+            "500.0",
+            "600.0",
+            "700.0",
+            "800.0",
+            "1200.0"
+        ],
+        "output": [
+            "0.0",
+            "0.08",
+            "0.186",
+            "0.296",
+            "0.436",
+            "0.55",
+            "0.635",
+            "0.705",
+            "0.765",
+            "0.824",
+            "1.0"
+        ]
+    },
+    "IAS_2": {
+        "arg_number": 386,
+        "controller": "IAS_INSTRUCTOR",
+        "input": [
+            "0.0",
+            "100.0",
+            "150.0",
+            "200.0",
+            "300.0",
+            "400.0",
+            "500.0",
+            "600.0",
+            "700.0",
+            "800.0",
+            "1200.0"
+        ],
+        "output": [
+            "0.0",
+            "0.082",
+            "0.182",
+            "0.293",
+            "0.432",
+            "0.55",
+            "0.635",
+            "0.7",
+            "0.763",
+            "0.82",
+            "1.0"
+        ]
+    },
+    "InstructorBody": {
+        "arg_number": 610,
+        "controller": "InstructorBody",
+        "input": [
+            "0.0",
+            "0.1",
+            "0.5",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "0.5",
+            "1.0",
+            "1.0"
+        ]
+    },
+    "Inverter115_Instructor_lamp": {
+        "arg_number": 353,
+        "controller": "Inverter115_Instructor_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Inverter115_lamp": {
+        "arg_number": 12,
+        "controller": "Inverter115_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Inverter363_Instructor_lamp": {
+        "arg_number": 357,
+        "controller": "Inverter363_Instructor_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Inverter363_lamp": {
+        "arg_number": 16,
+        "controller": "Inverter363_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "KM_8_heading": {
+        "arg_number": 531,
+        "controller": "KM_8_Magn_Heading",
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "KM_8_variation": {
+        "arg_number": 530,
+        "controller": "KM_8_Magn_Variation",
+        "input": [
+            "-math.pi",
+            "math.pi"
+        ],
+        "output": [
+            "1.0",
+            "-1.0"
+        ]
+    },
+    "KPP_1273K_2_pitch": {
+        "arg_number": 368,
+        "controller": "KPP_2_Pitch",
+        "input": [
+            "-math.pi / 2.0",
+            "0.0",
+            "math.pi / 2.0"
+        ],
+        "output": [
+            "-0.5",
+            "0.006",
+            "0.5"
+        ]
+    },
+    "KPP_1273K_2_roll": {
+        "arg_number": 375,
+        "controller": "KPP_2_Bank",
+        "input": [
+            "-math.pi",
+            "math.pi"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_1273K_2_sideslip": {
+        "arg_number": 377,
+        "controller": "KPP_2_SideSlip",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_1273K_pitch": {
+        "arg_number": 31,
+        "controller": "KPP_Pitch",
+        "input": [
+            "-math.pi / 2.0",
+            "0.0",
+            "math.pi / 2.0"
+        ],
+        "output": [
+            "-0.5",
+            "0.006",
+            "0.5"
+        ]
+    },
+    "KPP_1273K_roll": {
+        "arg_number": 38,
+        "controller": "KPP_Bank",
+        "input": [
+            "-math.pi",
+            "math.pi"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_1273K_sideslip": {
+        "arg_number": 40,
+        "controller": "KPP_SideSlip",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_2_Alt_Deviation_Bar": {
+        "arg_number": 371,
+        "controller": "SDU_RSBN_lateral_deviation_Aft",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_2_Arretir": {
+        "arg_number": 366,
+        "controller": "KPP_2_Arretir",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "KPP_2_Course_Deviation_Bar": {
+        "arg_number": 372,
+        "controller": "SDU_RSBN_long_deviation_Aft",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_2_Glide_Beacon": {
+        "arg_number": 373,
+        "controller": "SDU_Glide_Aft",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "KPP_2_Localizer_Beacon": {
+        "arg_number": 374,
+        "controller": "SDU_Localizer_Aft",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "KPP_Alt_Deviation_Bar": {
+        "arg_number": 34,
+        "controller": "SDU_RSBN_lateral_deviation_Fwd",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_Arretir": {
+        "arg_number": 29,
+        "controller": "KPP_Arretir",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "KPP_Course_Deviation_Bar": {
+        "arg_number": 35,
+        "controller": "SDU_RSBN_long_deviation_Fwd",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_Glide_Beacon": {
+        "arg_number": 36,
+        "controller": "SDU_Glide_Fwd",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "KPP_Localizer_Beacon": {
+        "arg_number": 37,
+        "controller": "SDU_Localizer_Fwd",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "KPP_SDU_Pitch_Aft": {
+        "arg_number": 370,
+        "controller": "KPP_SDU_Pitch_Aft",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_SDU_Pitch_Fwd": {
+        "arg_number": 33,
+        "controller": "KPP_SDU_Pitch_Fwd",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_SDU_Roll_Aft": {
+        "arg_number": 369,
+        "controller": "KPP_SDU_Roll_Aft",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "KPP_SDU_Roll_Fwd": {
+        "arg_number": 32,
+        "controller": "KPP_SDU_Roll_Fwd",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "LeftPitot_lamp": {
+        "arg_number": 556,
+        "controller": "LeftPitot_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "MACH": {
+        "arg_number": 51,
+        "controller": "MACH",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "MACH_2": {
+        "arg_number": 388,
+        "controller": "MACH_INSTRUCTOR",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "MRP_56_Instructor_lamp": {
+        "arg_number": 358,
+        "controller": "MarkerInstructor_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "MRP_56_lamp": {
+        "arg_number": 18,
+        "controller": "Marker_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "MachMeterLampAft": {
+        "arg_number": 344,
+        "controller": "MachMeterLampAft",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "MachMeterLampFwd": {
+        "arg_number": 3,
+        "controller": "MachMeterLampFwd",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "MainGen_Instructor_lamp": {
+        "arg_number": 347,
+        "controller": "MainGen_Instructor_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "MainGen_lamp": {
+        "arg_number": 6,
+        "controller": "MainGen_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "MainHydro_PRESS": {
+        "arg_number": 198,
+        "controller": "MainHydroPress",
+        "input": [
+            "0.0",
+            "200.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "NearNDBSelectorLamp": {
+        "arg_number": 570,
+        "controller": "NearBeaconSwitchLamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "NearNDBSelectorLamp_CPT2": {
+        "arg_number": 571,
+        "controller": "NearBeaconSwitchLamp_CPT2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Oil_Press": {
+        "arg_number": 82,
+        "controller": "Oil_Press",
+        "input": [
+            "-1.0",
+            "0.0",
+            "6.0"
+        ],
+        "output": [
+            "0.0",
+            "0.077",
+            "1.0"
+        ]
+    },
+    "Oil_Press_2": {
+        "arg_number": 422,
+        "controller": "Oil_Press",
+        "input": [
+            "0.0",
+            "0.1",
+            "6.0"
+        ],
+        "output": [
+            "0.0",
+            "0.077",
+            "1.0"
+        ]
+    },
+    "Oil_Temp": {
+        "arg_number": 83,
+        "controller": "Oil_Temp",
+        "input": [
+            "-50.0",
+            "0.0",
+            "50.0",
+            "100.0",
+            "150.0"
+        ],
+        "output": [
+            "0.0",
+            "0.323",
+            "0.576",
+            "0.817",
+            "1.0"
+        ]
+    },
+    "Oil_Temp_2": {
+        "arg_number": 423,
+        "controller": "Oil_Temp_2",
+        "input": [
+            "-50.0",
+            "0.0",
+            "50.0",
+            "100.0",
+            "150.0"
+        ],
+        "output": [
+            "0.0",
+            "0.323",
+            "0.576",
+            "0.817",
+            "1.0"
+        ]
+    },
+    "PilotBody": {
+        "arg_number": 600,
+        "controller": "PilotBody",
+        "input": [
+            "0.0",
+            "0.1",
+            "0.5",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "0.5",
+            "1.0",
+            "1.0"
+        ]
+    },
+    "PitchTrimInd": {
+        "arg_number": 247,
+        "controller": "PitchTrimInd",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "1.0",
+            "-1.0"
+        ]
+    },
+    "PressDiffAft": {
+        "arg_number": 551,
+        "controller": "PressureDiff",
+        "input": [
+            "-0.04",
+            "-0.02",
+            "0.0",
+            "0.1",
+            "0.4",
+            "0.6"
+        ],
+        "output": [
+            "0.0",
+            "0.102",
+            "0.202",
+            "0.398",
+            "0.779",
+            "1.0"
+        ]
+    },
+    "PressDiffFwd": {
+        "arg_number": 96,
+        "controller": "PressureDiff",
+        "input": [
+            "-0.04",
+            "-0.02",
+            "0.0",
+            "0.1",
+            "0.4",
+            "0.6"
+        ],
+        "output": [
+            "0.0",
+            "0.102",
+            "0.202",
+            "0.398",
+            "0.779",
+            "1.0"
+        ]
+    },
+    "RIO_HeatingOk_lamp": {
+        "arg_number": 182,
+        "controller": "RIO_HeatingOk_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RKL_41_2_Signal": {
+        "arg_number": 513,
+        "controller": "RKL_41_Signal_CPT2",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RKL_41_2_needle": {
+        "arg_number": 420,
+        "controller": "RKL_41_Heading_Aft",
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RKL_41_Signal": {
+        "arg_number": 156,
+        "controller": "RKL_41_Signal",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RKL_41_needle": {
+        "arg_number": 77,
+        "controller": "RKL_41_Heading_Fwd",
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RKL_AftPanelLights": {
+        "arg_number": 566,
+        "controller": "RKL_AftPanelLights",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RKL_FwdPanelLights": {
+        "arg_number": 563,
+        "controller": "RKL_FwdPanelLights",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_Azim_Correct": {
+        "arg_number": 359,
+        "controller": "RSBN_Azimuth_Correction",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_Azim_Correction": {
+        "arg_number": 185,
+        "controller": "RSBN_Azimuth_Correction",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_LAND_Chan": {
+        "arg_number": 190,
+        "controller": "Landing_Chan",
+        "input": [
+            "1.0",
+            "40.0"
+        ],
+        "output": [
+            "0.0",
+            "0.39"
+        ]
+    },
+    "RSBN_NAV_Chan": {
+        "arg_number": 189,
+        "controller": "Navigation_Chan",
+        "input": [
+            "1.0",
+            "40.0"
+        ],
+        "output": [
+            "0.0",
+            "0.39"
+        ]
+    },
+    "RSBN_PanelLightsLmp": {
+        "arg_number": 580,
+        "controller": "RSBN_PanelLightsLmp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_Range_1": {
+        "arg_number": 64,
+        "controller": "RSBN_beacon_range_1",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_Range_10": {
+        "arg_number": 65,
+        "controller": "RSBN_beacon_range_10",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_Range_100": {
+        "arg_number": 66,
+        "controller": "RSBN_beacon_range_100",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_Range_2_1": {
+        "arg_number": 402,
+        "controller": "RSBN_beacon_range_1",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_Range_2_10": {
+        "arg_number": 403,
+        "controller": "RSBN_beacon_range_10",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_Range_2_100": {
+        "arg_number": 404,
+        "controller": "RSBN_beacon_range_100",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_Range_Correct": {
+        "arg_number": 362,
+        "controller": "RSBN_Range_Correction",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RSBN_Range_Correction": {
+        "arg_number": 186,
+        "controller": "RSBN_Range_Correction",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RV_5_2_DangerRALT_index": {
+        "arg_number": 397,
+        "controller": "RV_5_2_DangerRALT_index",
+        "input": [
+            "0.0",
+            "20.0",
+            "100.0",
+            "700.0"
+        ],
+        "output": [
+            "0.0",
+            "0.095",
+            "0.48",
+            "0.997"
+        ]
+    },
+    "RV_5_2_DangerRALT_lamp": {
+        "arg_number": 401,
+        "controller": "RV_5_2_DangerRALT_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RV_5_2_RALT": {
+        "arg_number": 396,
+        "controller": "RV_5_2_RALT",
+        "input": [
+            "0.0",
+            "20.0",
+            "100.0",
+            "700.0",
+            "800.0"
+        ],
+        "output": [
+            "0.0",
+            "0.086",
+            "0.439",
+            "0.878",
+            "0.955"
+        ]
+    },
+    "RV_5_2_warning_flag": {
+        "arg_number": 400,
+        "controller": "RV_5_2_warning_flag",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RV_5_DangerRALT_index": {
+        "arg_number": 59,
+        "controller": "RV_5_DangerRALT_index",
+        "input": [
+            "0.0",
+            "20.0",
+            "100.0",
+            "700.0"
+        ],
+        "output": [
+            "0.0",
+            "0.094",
+            "0.48",
+            "0.998"
+        ]
+    },
+    "RV_5_DangerRALT_lamp": {
+        "arg_number": 63,
+        "controller": "RV_5_DangerRALT_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RV_5_RALT": {
+        "arg_number": 58,
+        "controller": "RV_5_RALT",
+        "input": [
+            "0.0",
+            "20.0",
+            "100.0",
+            "700.0",
+            "800.0"
+        ],
+        "output": [
+            "0.0",
+            "0.086",
+            "0.439",
+            "0.878",
+            "0.955"
+        ]
+    },
+    "RV_5_warning_flag": {
+        "arg_number": 62,
+        "controller": "RV_5_warning_flag",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "ReserveGen_Instructor_lamp": {
+        "arg_number": 350,
+        "controller": "ReserveGen_Instructor_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "ReserveGen_lamp": {
+        "arg_number": 9,
+        "controller": "ReserveGen_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RightPitot_lamp": {
+        "arg_number": 557,
+        "controller": "RightPitot_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "RudderPedals": {
+        "arg_number": 138,
+        "controller": "base_gauge_RudderPosition",
+        "input": [
+            "-85",
+            "85"
+        ],
+        "output": [
+            "1",
+            "-1"
+        ]
+    },
+    "StickBank": {
+        "arg_number": 126,
+        "controller": "base_gauge_StickRollPosition",
+        "input": [
+            "-22",
+            "22"
+        ],
+        "output": [
+            "-1",
+            "1"
+        ]
+    },
+    "StickPitch": {
+        "arg_number": 125,
+        "controller": "base_gauge_StickPitchPosition",
+        "input": [
+            "-22",
+            "22"
+        ],
+        "output": [
+            "1",
+            "-1"
+        ]
+    },
+    "TAS": {
+        "arg_number": 50,
+        "controller": "TAS",
+        "input": [
+            "0.0",
+            "100.0",
+            "150.0",
+            "200.0",
+            "300.0",
+            "400.0",
+            "500.0",
+            "600.0",
+            "700.0",
+            "800.0",
+            "1200.0"
+        ],
+        "output": [
+            "0.0",
+            "0.08",
+            "0.186",
+            "0.296",
+            "0.436",
+            "0.55",
+            "0.635",
+            "0.705",
+            "0.765",
+            "0.824",
+            "1.0"
+        ]
+    },
+    "TAS_2": {
+        "arg_number": 387,
+        "controller": "TAS_INSTRUCTOR",
+        "input": [
+            "0.0",
+            "100.0",
+            "150.0",
+            "200.0",
+            "300.0",
+            "400.0",
+            "500.0",
+            "600.0",
+            "700.0",
+            "800.0",
+            "1200.0"
+        ],
+        "output": [
+            "0.0",
+            "0.082",
+            "0.182",
+            "0.293",
+            "0.432",
+            "0.55",
+            "0.635",
+            "0.7",
+            "0.763",
+            "0.82",
+            "1.0"
+        ]
+    },
+    "TrimmerPitchNeutralAft_lamp": {
+        "arg_number": 442,
+        "controller": "TrimmerPitchNeutralAft_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "TrimmerRollNeutralAft_lamp": {
+        "arg_number": 441,
+        "controller": "TrimmerRollNeutralAft_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "TrimmerRollNeutralFwd_lamp": {
+        "arg_number": 246,
+        "controller": "TrimmerRollNeutralFwd_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "TurboStarter_lamp": {
+        "arg_number": 23,
+        "controller": "TurboStarter_lamp",
+        "input": [
+            "0.0",
+            "1.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "VD_20_PRESS": {
+        "arg_number": 56,
+        "controller": "Altimeter_Pressure",
+        "input": [
+            "670.0",
+            "826.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "VD_20_PRESS_2": {
+        "arg_number": 393,
+        "controller": "Altimeter_Pressure_2",
+        "input": [
+            "670.0",
+            "826.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "VD_20_km": {
+        "arg_number": 52,
+        "controller": "Altimeter_km",
+        "input": [
+            "0.0",
+            "20.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "VD_20_km_2": {
+        "arg_number": 389,
+        "controller": "Altimeter_km_2",
+        "input": [
+            "0.0",
+            "20.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "VD_20_km_Ind": {
+        "arg_number": 54,
+        "controller": "Altimeter_km_Ind",
+        "input": [
+            "0.0",
+            "20.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "VD_20_km_Ind_2": {
+        "arg_number": 391,
+        "controller": "Altimeter_km_Ind_2",
+        "input": [
+            "0.0",
+            "20.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "VD_20_m": {
+        "arg_number": 53,
+        "controller": "Altimeter_m",
+        "input": [
+            "0.0",
+            "1000.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "VD_20_m_2": {
+        "arg_number": 390,
+        "controller": "Altimeter_m_2",
+        "input": [
+            "0.0",
+            "1000.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "VD_20_m_Ind": {
+        "arg_number": 55,
+        "controller": "Altimeter_m_Ind",
+        "input": [
+            "0.0",
+            "1000.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "VD_20_m_Ind_2": {
+        "arg_number": 392,
+        "controller": "Altimeter_m_Ind_2",
+        "input": [
+            "0.0",
+            "1000.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "Variometer": {
+        "arg_number": 74,
+        "controller": "VerticalSpeed",
+        "input": [
+            "-80.0",
+            "-50.0",
+            "-20.0",
+            "-10.0",
+            "0.0",
+            "10.0",
+            "20.0",
+            "50.0",
+            "80.0"
+        ],
+        "output": [
+            "-1.0",
+            "-0.875",
+            "-0.775",
+            "-0.44",
+            "0.0",
+            "0.44",
+            "0.775",
+            "0.875",
+            "1.0"
+        ]
+    },
+    "Variometer_2": {
+        "arg_number": 416,
+        "controller": "VerticalSpeed_2",
+        "input": [
+            "-80.0",
+            "-50.0",
+            "-20.0",
+            "-10.0",
+            "0.0",
+            "10.0",
+            "20.0",
+            "50.0",
+            "80.0"
+        ],
+        "output": [
+            "-1.0",
+            "-0.875",
+            "-0.775",
+            "-0.44",
+            "0.0",
+            "0.44",
+            "0.775",
+            "0.875",
+            "1.0"
+        ]
+    },
+    "Variometer_2_sideslip": {
+        "arg_number": 418,
+        "controller": "Turn_Ind_SideSlip",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "Variometer_2_turn": {
+        "arg_number": 417,
+        "controller": "Turn_Speed",
+        "input": [
+            "-math.rad(6.0)",
+            "math.rad(6.0)"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "Variometer_sideslip": {
+        "arg_number": 76,
+        "controller": "Turn_Ind_SideSlip",
+        "input": [
+            "-1.0",
+            "1.0"
+        ],
+        "output": [
+            "-1.0",
+            "1.0"
+        ]
+    },
+    "Variometer_turn": {
+        "arg_number": 75,
+        "controller": "Turn_Speed",
+        "input": [
+            "-math.rad(3.6)",
+            "math.rad(-2.4)",
+            "math.rad(-1.2)",
+            "math.rad(1.2)",
+            "math.rad(2.4)",
+            "math.rad(3.6)"
+        ],
+        "output": [
+            "-1.0",
+            "-0.58",
+            "-0.275",
+            "0.275",
+            "0.58",
+            "1.0"
+        ]
+    },
+    "Voltmeter": {
+        "arg_number": 92,
+        "controller": "Voltmeter",
+        "input": [
+            "0.0",
+            "40.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ]
+    },
+    "mirrors_draw": {
+        "arg_number": 572,
+        "controller": "mirrors_draw",
+        "input": [
+            "0",
+            "1"
+        ],
+        "output": [
+            "0",
+            "1"
+        ]
+    },
+    "pressure_setting_0": {
+        "arg_number": 636,
+        "controller": "Altimeter_Pressure_Drum_Counter",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "0"
+        ]
+    },
+    "pressure_setting_0_2": {
+        "arg_number": 736,
+        "controller": "Altimeter_Pressure_Drum_Counter_2",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "0"
+        ]
+    },
+    "pressure_setting_1": {
+        "arg_number": 635,
+        "controller": "Altimeter_Pressure_Drum_Counter",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "1"
+        ]
+    },
+    "pressure_setting_1_2": {
+        "arg_number": 735,
+        "controller": "Altimeter_Pressure_Drum_Counter_2",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "1"
+        ]
+    },
+    "pressure_setting_2": {
+        "arg_number": 634,
+        "controller": "Altimeter_Pressure_Drum_Counter",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "2"
+        ]
+    },
+    "pressure_setting_2_2": {
+        "arg_number": 734,
+        "controller": "Altimeter_Pressure_Drum_Counter_2",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "2"
+        ]
+    },
+    "pressure_setting_3": {
+        "arg_number": 633,
+        "controller": "Altimeter_Pressure_Drum_Counter",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "3"
+        ]
+    },
+    "pressure_setting_3_2": {
+        "arg_number": 733,
+        "controller": "Altimeter_Pressure_Drum_Counter_2",
+        "input": [
+            "0.0",
+            "10.0"
+        ],
+        "output": [
+            "0.0",
+            "1.0"
+        ],
+        "params": [
+            "3"
+        ]
+    }
+}

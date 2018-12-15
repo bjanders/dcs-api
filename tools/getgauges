@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+
+import fileinput
+import re
+import json
+
+REGAUGE = re.compile("(\w+)\W+=\W+CreateGauge")
+RECOMMENT = re.compile("--.*$")
+RELAMP = re.compile("(\w+)\W+=\W+create_default_lamp\((\d+),\W+controllers\.(\w+)\)")
+
+def create_gauge(f, gauge_name):
+    g = {}
+    for line in f:
+        line = line.strip()
+        m = re.match(gauge_name + "\.(\w+)\W+=(.*)$", line)
+        if not m:
+            return g
+        k, v = m.groups()
+        v = RECOMMENT.sub("", v).strip()
+        if k == "controller":
+            v = v.split('.')[1]
+        elif k in  ["input", "output", "params"]:
+            v = [c.strip() for c in v.strip(" \t{}").split(",") ]
+        elif k == "arg_number":
+            v = int(v) 
+        g[k] = v
+
+def create_lamp(f, gauge_name, arg, controller):
+    g = { 
+        "arg_number": int(arg),
+        "input": ["0.0", "1.0"],
+        "output": ["0.0", "1.0"],
+        "controller": controller
+    }
+    return g
+        
+
+def main():
+    gauges = {}
+    with fileinput.input() as f:
+        for line in f:
+            line = line.strip()
+            m = REGAUGE.match(line)
+            if m:
+                gauge_name = m.group(1)
+                gauges[gauge_name] = create_gauge(f, gauge_name)
+            else:
+                m = RELAMP.match(line)
+                if m:
+                    gauge_name = m.group(1)
+                    gauges[gauge_name] = create_lamp(f, *m.groups())
+    json_str = json.dumps(gauges, sort_keys=True, indent=4)
+    print(json_str)
+
+
+if __name__ == "__main__":
+    main()
