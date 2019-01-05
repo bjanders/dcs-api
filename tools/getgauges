@@ -21,6 +21,11 @@ def create_gauge(f, gauge_name):
             v = v.split('.')[1]
         elif k in  ["input", "output", "params"]:
             v = [c.strip() for c in v.strip(" \t{}").split(",") ]
+            try:
+                v = [float(x) for x in v]
+            except:
+                pass
+                    
         elif k == "arg_number":
             v = int(v) 
         g[k] = v
@@ -28,12 +33,11 @@ def create_gauge(f, gauge_name):
 def create_lamp(f, gauge_name, arg, controller):
     g = { 
         "arg_number": int(arg),
-        "input": ["0.0", "1.0"],
-        "output": ["0.0", "1.0"],
+        "input": [0.0, 1.0],
+        "output": [0.0, 1.0],
         "controller": controller
     }
     return g
-        
 
 def main():
     gauges = {}
