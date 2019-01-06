@@ -9,7 +9,7 @@ RECOMMENT = re.compile("--.*$")
 RELAMP = re.compile("(\w+)\W+=\W+create_default_lamp\((\d+),\W+controllers\.(\w+)\)")
 
 def create_gauge(f, gauge_name):
-    g = {}
+    g = {"name": gauge_name}
     for line in f:
         line = line.strip()
         m = re.match(gauge_name + "\.(\w+)\W+=(.*)$", line)
@@ -29,9 +29,11 @@ def create_gauge(f, gauge_name):
         elif k == "arg_number":
             v = int(v) 
         g[k] = v
+    return g
 
 def create_lamp(f, gauge_name, arg, controller):
     g = { 
+        "name": gauge_name,
         "arg_number": int(arg),
         "input": [0.0, 1.0],
         "output": [0.0, 1.0],
@@ -40,20 +42,20 @@ def create_lamp(f, gauge_name, arg, controller):
     return g
 
 def main():
-    gauges = {}
+    gauges = []
     with fileinput.input() as f:
         for line in f:
             line = line.strip()
             m = REGAUGE.match(line)
             if m:
                 gauge_name = m.group(1)
-                gauges[gauge_name] = create_gauge(f, gauge_name)
+                gauges.append(create_gauge(f, gauge_name))
             else:
                 m = RELAMP.match(line)
                 if m:
                     gauge_name = m.group(1)
-                    gauges[gauge_name] = create_lamp(f, *m.groups())
-    json_str = json.dumps(gauges, sort_keys=True, indent=4)
+                    gauges.append(create_lamp(f, *m.groups()))
+    json_str = json.dumps(gauges, sort_keys=False, indent=4)
     print(json_str)
 
 
