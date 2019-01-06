@@ -1,0 +1,1467 @@
+[
+    {
+        "arg_number": 540,
+        "controller": "pilot_draw",
+        "name": "pilot_draw",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 8,
+        "controller": "LeftEngineThrottle",
+        "name": "LeftEngineThrottle",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 9,
+        "controller": "RightEngineThrottle",
+        "name": "RightEngineThrottle",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 10,
+        "controller": "StickPitch",
+        "name": "StickPitch",
+        "output": [
+            1.0,
+            -1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 11,
+        "controller": "StickBank",
+        "name": "StickBank",
+        "output": [
+            0.45,
+            -0.45
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 93,
+        "controller": "RudderPosition",
+        "name": "RudderPedals",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 716,
+        "controller": "gear_handle_animation",
+        "name": "gear_handle",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 63,
+        "controller": "SAI_Pitch",
+        "name": "SAI_Pitch",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            "-math.pi / 2.0",
+            "math.pi / 2.0"
+        ]
+    },
+    {
+        "arg_number": 64,
+        "controller": "SAI_Bank",
+        "name": "SAI_Bank",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            "-math.pi",
+            "math.pi"
+        ]
+    },
+    {
+        "arg_number": 65,
+        "controller": "SAI_attitude_warning_flag",
+        "name": "SAI_attitude_warning_flag",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 715,
+        "controller": "SAI_manual_pitch_adjustment",
+        "name": "SAI_manual_pitch_adjustment",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 717,
+        "controller": "SAI_knob_arrow",
+        "name": "SAI_knob_arrow",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 17,
+        "controller": "ADI_Pitch",
+        "name": "ADI_Pitch",
+        "output": [
+            1.0,
+            -1.0
+        ],
+        "input": [
+            "-math.pi / 2.0",
+            "math.pi / 2.0"
+        ]
+    },
+    {
+        "arg_number": 18,
+        "controller": "ADI_Bank",
+        "name": "ADI_Bank",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ]
+    },
+    {
+        "arg_number": 24,
+        "controller": "ADI_Slipball",
+        "name": "ADI_Slipball",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 23,
+        "controller": "ADI_TurnNeedle",
+        "name": "ADI_TurnNeedle",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            "-math.rad(3.0)",
+            "math.rad(3.0)"
+        ]
+    },
+    {
+        "arg_number": 25,
+        "controller": "ADI_attitude_warning_flag",
+        "name": "ADI_attitude_warning_flag",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 19,
+        "controller": "ADI_course_warning_flag",
+        "name": "ADI_course_warning_flag",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 26,
+        "controller": "ADI_glide_slope_flag",
+        "name": "ADI_glide_slope_flag",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 20,
+        "controller": "ADI_bank_steering_bar",
+        "name": "ADI_bank_steering_bar",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 21,
+        "controller": "ADI_pitch_steering_bar",
+        "name": "ADI_pitch_steering_bar",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 27,
+        "controller": "ADI_glide_slope_indicator",
+        "name": "ADI_glide_slope_indicator",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 40,
+        "controller": "HSI_poweroff_flag",
+        "name": "HSI_poweroff_flag",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 32,
+        "controller": "HSI_range_flag",
+        "name": "HSI_range_flag",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 46,
+        "controller": "HSI_bearing_flag",
+        "name": "HSI_bearing_flag",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 34,
+        "controller": "HSI_heading",
+        "name": "HSI_heading",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ]
+    },
+    {
+        "arg_number": 33,
+        "controller": "HSI_bearing_no1",
+        "name": "HSI_bearing_no1",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ]
+    },
+    {
+        "arg_number": 35,
+        "controller": "HSI_bearing_no2",
+        "name": "HSI_bearing_no2",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ]
+    },
+    {
+        "arg_number": 36,
+        "controller": "HSI_heading_marker",
+        "name": "HSI_heading_marker",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ]
+    },
+    {
+        "arg_number": 47,
+        "controller": "HSI_course_arrow",
+        "name": "HSI_course_arrow",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ]
+    },
+    {
+        "arg_number": 37,
+        "controller": "HSI_course_counter_100_10",
+        "name": "HSI_course_counter_100_10",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            36.0
+        ]
+    },
+    {
+        "arg_number": 39,
+        "controller": "HSI_course_counter_1",
+        "name": "HSI_course_counter_1",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            9.9
+        ]
+    },
+    {
+        "arg_number": 28,
+        "controller": "HSI_range_1000_controller",
+        "name": "HSI_range_counter_1000",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 29,
+        "name": "HSI_range_counter_100",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "HSI_range_drum_controller",
+        "params": [
+            2.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 30,
+        "name": "HSI_range_counter_10",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "HSI_range_drum_controller",
+        "params": [
+            1.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 31,
+        "name": "HSI_range_counter_1",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "HSI_range_drum_controller",
+        "params": [
+            0.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 41,
+        "controller": "HSI_deviation_controller",
+        "name": "HSI_deviation",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 42,
+        "name": "HSI_to_from_1",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "HSI_to_from_controller",
+        "params": [
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 43,
+        "name": "HSI_to_from_2",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "HSI_to_from_controller",
+        "params": [
+            2.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 45,
+        "controller": "HSI_headingKnob",
+        "name": "HSI_headingKnob",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ]
+    },
+    {
+        "arg_number": 44,
+        "controller": "HSI_courseKnob",
+        "name": "HSI_courseKnob",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            "0.0",
+            "math.pi * 2.0"
+        ]
+    },
+    {
+        "arg_number": 269,
+        "name": "HARS_sync",
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "controller": "HARS_sync_controller",
+        "params": [
+            0.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 12,
+        "controller": "Variometer",
+        "name": "Variometer",
+        "output": [
+            -1.0,
+            -0.5,
+            -0.29,
+            0.29,
+            0.5,
+            1.0
+        ],
+        "input": [
+            -6000.0,
+            -2000.0,
+            -1000.0,
+            1000.0,
+            2000.0,
+            6000.0
+        ]
+    },
+    {
+        "arg_number": 15,
+        "controller": "Accelerometer_main",
+        "name": "Accelerometer_main",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            -5.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 902,
+        "controller": "Accelerometer_min",
+        "name": "Accelerometer_min",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            -5.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 903,
+        "controller": "Accelerometer_max",
+        "name": "Accelerometer_max",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            -5.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 55,
+        "controller": "AOA_poweroff_flag",
+        "name": "AOA_poweroff_flag",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 4,
+        "controller": "AOA_Units",
+        "name": "AOA_Units",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            30.0
+        ]
+    },
+    {
+        "arg_number": 48,
+        "controller": "AirspeedNeedle",
+        "name": "AirspeedNeedle",
+        "output": [
+            0.0,
+            0.053,
+            0.146,
+            0.234,
+            0.322,
+            0.412,
+            0.517,
+            0.62,
+            0.719,
+            0.811,
+            0.906,
+            1.0
+        ],
+        "input": [
+            0.0,
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0,
+            400.0,
+            450.0,
+            500.0,
+            550.0
+        ]
+    },
+    {
+        "arg_number": 49,
+        "controller": "AirspeedDial",
+        "name": "AirspeedDial",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            100.0
+        ]
+    },
+    {
+        "arg_number": 51,
+        "controller": "Altimeter_100_footPtr",
+        "name": "Altimeter_100_footPtr",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1000.0
+        ]
+    },
+    {
+        "arg_number": 52,
+        "name": "Altimeter_10000_footCount",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "Altimeter_Drum_Counter",
+        "params": [
+            2.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 53,
+        "name": "Altimeter_1000_footCount",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "Altimeter_Drum_Counter",
+        "params": [
+            1.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 54,
+        "name": "Altimeter_100_footCount",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "Altimeter_Drum_Counter",
+        "params": [
+            0.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 59,
+        "name": "pressure_setting_0",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "Altimeter_Pressure_Drum_Counter",
+        "params": [
+            0.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 58,
+        "name": "pressure_setting_1",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "Altimeter_Pressure_Drum_Counter",
+        "params": [
+            1.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 57,
+        "name": "pressure_setting_2",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "Altimeter_Pressure_Drum_Counter",
+        "params": [
+            2.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 56,
+        "name": "pressure_setting_3",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "Altimeter_Pressure_Drum_Counter",
+        "params": [
+            3.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 372,
+        "controller": "CMSC_MissileLaunchIndicator",
+        "name": "CMSC_MissileLaunchIndicator",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 373,
+        "controller": "CMSC_PriorityStatusIndicator",
+        "name": "CMSC_PriorityStatusIndicator",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 374,
+        "controller": "CMSC_UnknownStatusIndicator",
+        "name": "CMSC_UnknownStatusIndicator",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 653,
+        "controller": "FlapPositionIndicator",
+        "name": "FlapPositionIndicator",
+        "output": [
+            "0",
+            "2/3"
+        ],
+        "input": [
+            0.0,
+            20.0
+        ]
+    },
+    {
+        "arg_number": 76,
+        "controller": "EngineLeftFanSpeed",
+        "name": "EngineLeftFanSpeed",
+        "output": [
+            "0.0",
+            "1/8",
+            "2/8",
+            "3/8",
+            "4/8",
+            "5/8",
+            "6/8",
+            "7/8",
+            "1"
+        ],
+        "input": [
+            0.0,
+            25.0,
+            50.0,
+            75.0,
+            80.0,
+            85.0,
+            90.0,
+            95.0,
+            100.0
+        ]
+    },
+    {
+        "arg_number": 77,
+        "controller": "EngineRightFanSpeed",
+        "name": "EngineRightFanSpeed",
+        "output": [
+            "0.0",
+            "1/8",
+            "2/8",
+            "3/8",
+            "4/8",
+            "5/8",
+            "6/8",
+            "7/8",
+            "1"
+        ],
+        "input": [
+            0.0,
+            25.0,
+            50.0,
+            75.0,
+            80.0,
+            85.0,
+            90.0,
+            95.0,
+            100.0
+        ]
+    },
+    {
+        "arg_number": 78,
+        "controller": "EngineLeftCoreSpeedTenth",
+        "name": "EngineLeftCoreSpeedTenth",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            100.0
+        ]
+    },
+    {
+        "arg_number": 79,
+        "controller": "EngineLeftCoreSpeedUnits",
+        "name": "EngineLeftCoreSpeedUnits",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 80,
+        "controller": "EngineRightCoreSpeedTenth",
+        "name": "EngineRightCoreSpeedTenth",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            100.0
+        ]
+    },
+    {
+        "arg_number": 81,
+        "controller": "EngineRightCoreSpeedUnits",
+        "name": "EngineRightCoreSpeedUnits",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 84,
+        "controller": "EngineLeftFuelFlow",
+        "name": "EngineLeftFuelFlow",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            5000.0
+        ]
+    },
+    {
+        "arg_number": 85,
+        "controller": "EngineRightFuelFlow",
+        "name": "EngineRightFuelFlow",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            5000.0
+        ]
+    },
+    {
+        "arg_number": 70,
+        "controller": "EngineLeftTemperatureTenth",
+        "name": "EngineLeftTemperatureTenth",
+        "output": [
+            "engineTemperatureTenthInterpolationOut"
+        ],
+        "input": [
+            "engineTemperatureTenthInterpolationIn"
+        ]
+    },
+    {
+        "arg_number": 71,
+        "controller": "EngineLeftTemperatureUnits",
+        "name": "EngineLeftTemperatureUnits",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            100.0
+        ]
+    },
+    {
+        "arg_number": 73,
+        "controller": "EngineRightTemperatureTenth",
+        "name": "EngineRightTemperatureTenth",
+        "output": [
+            "engineTemperatureTenthInterpolationOut"
+        ],
+        "input": [
+            "engineTemperatureTenthInterpolationIn"
+        ]
+    },
+    {
+        "arg_number": 74,
+        "controller": "EngineRightTemperatureUnits",
+        "name": "EngineRightTemperatureUnits",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            100.0
+        ]
+    },
+    {
+        "arg_number": 72,
+        "controller": "EngineLeftTemperatureOff",
+        "name": "EngineLeftTemperatureOff",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 75,
+        "controller": "EngineRightTemperatureOff",
+        "name": "EngineRightTemperatureOff",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 13,
+        "controller": "APU_RPM",
+        "name": "APU_RPM",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            120.0
+        ]
+    },
+    {
+        "arg_number": 14,
+        "controller": "APU_Temperature",
+        "name": "APUTemperature",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1000.0
+        ]
+    },
+    {
+        "arg_number": 647,
+        "controller": "HydraulicPressureLeft",
+        "name": "HydraulicPressureLeft",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            4000.0
+        ]
+    },
+    {
+        "arg_number": 648,
+        "controller": "HydraulicPressureRight",
+        "name": "HydraulicPressureRight",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            4000.0
+        ]
+    },
+    {
+        "arg_number": 82,
+        "controller": "EngineLeftOilPressure",
+        "name": "EngineLeftOilPressure",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            100.0
+        ]
+    },
+    {
+        "arg_number": 83,
+        "controller": "EngineRightOilPressure",
+        "name": "EngineRightOilPressure",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            100.0
+        ]
+    },
+    {
+        "arg_number": 88,
+        "controller": "FuelQuantityLeft",
+        "name": "FuelQuantityLeft",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            6000.0
+        ]
+    },
+    {
+        "arg_number": 89,
+        "controller": "FuelQuantityRight",
+        "name": "FuelQuantityRight",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            6000.0
+        ]
+    },
+    {
+        "arg_number": 90,
+        "name": "FuelQuantityCounterTenthOfThous",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "FuelQuantityCounterDrum",
+        "params": [
+            2.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 91,
+        "name": "FuelQuantityCounterThousands",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "FuelQuantityCounterDrum",
+        "params": [
+            1.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 92,
+        "name": "FuelQuantityCounterHundreds",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "controller": "FuelQuantityCounterDrum",
+        "params": [
+            0.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 719,
+        "controller": "mirrors_draw",
+        "name": "mirrors_draw",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 260,
+        "controller": "TACAN_test_light_controller",
+        "name": "TACAN_test_light",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 251,
+        "name": "ILS_window_wheel_MHz",
+        "output": [
+            0.0,
+            0.3
+        ],
+        "controller": "ILS_window_wheel_controller",
+        "params": [
+            "ILS_digit_pos.MHz"
+        ],
+        "input": [
+            8.0,
+            11.0
+        ]
+    },
+    {
+        "arg_number": 252,
+        "name": "ILS_window_wheel_KHz",
+        "output": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+        ],
+        "controller": "ILS_window_wheel_controller",
+        "params": [
+            "ILS_digit_pos.KHz"
+        ],
+        "input": [
+            10.0,
+            15.0,
+            30.0,
+            35.0,
+            50.0,
+            55.0,
+            70.0,
+            75.0,
+            90.0,
+            95.0
+        ]
+    },
+    {
+        "arg_number": 771,
+        "controller": "SeatAdjustment",
+        "name": "seat_adjustment",
+        "output": [
+            1.0,
+            -1.0
+        ],
+        "input": [
+            "-2.5 * 0.0254",
+            "2.5 * 0.0254"
+        ]
+    },
+    {
+        "arg_number": 7,
+        "controller": "CanopyValue",
+        "name": "canopy",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 61,
+        "controller": "AAU34_PNEU_flag_controller",
+        "name": "AAU34_PNEU_flag",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            0.4
+        ]
+    },
+    {
+        "arg_number": 281,
+        "controller": "CabinPressAlt",
+        "name": "CabinPressAlt",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            50000.0
+        ]
+    },
+    {
+        "arg_number": 274,
+        "controller": "OxygenVolume",
+        "name": "OxygenVolume",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "arg_number": 604,
+        "controller": "OxygenPress",
+        "name": "OxygenPress",
+        "output": [
+            0.0,
+            0.5,
+            1.0
+        ],
+        "input": [
+            0.0,
+            100.0,
+            500.0
+        ]
+    },
+    {
+        "arg_number": 600,
+        "controller": "BreathFlow",
+        "name": "BreathFlow",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 798,
+        "controller": "IFF_reply_lamp",
+        "name": "IFF_reply_lamp_",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 799,
+        "controller": "IFF_test_lamp",
+        "name": "IFF_test_lamp_",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "DVADR_end_of_tape"
+    },
+    {
+        "arg_number": 792,
+        "controller": "DVADR_record",
+        "name": "DVADR_record",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 793,
+        "name": "DVADR_cp_end_of_tape",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "arg_number": 794,
+        "controller": "DVADR_record",
+        "name": "DVADR_cp_record",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    }
+]

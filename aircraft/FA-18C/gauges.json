@@ -1,0 +1,734 @@
+[
+    {
+        "name": "pilot_draw",
+        "controller": "pilot_draw",
+        "arg_number": 540,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "Canopy",
+        "input": [
+            0.0,
+            1.0
+        ],
+        "arg_number": 181,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "external_arg": "38"
+    },
+    {
+        "name": "CameraAdjustment",
+        "controller": "CameraAdjustment",
+        "arg_number": 503,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "StickPitch",
+        "controller": "StickPitch",
+        "arg_number": 71,
+        "output": [
+            1.0,
+            0.12,
+            0.0,
+            -0.726
+        ],
+        "input": [
+            -1.0,
+            0.0,
+            0.137,
+            0.5
+        ]
+    },
+    {
+        "name": "StickRoll",
+        "controller": "StickRoll",
+        "arg_number": 74,
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "name": "Rudder",
+        "controller": "Rudder",
+        "arg_number": 500,
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "name": "LeftWheelBrake",
+        "controller": "LeftWheelBrake",
+        "arg_number": 501,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "RightWheelBrake",
+        "controller": "RightWheelBrake",
+        "arg_number": 502,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "LeftThrottle",
+        "controller": "LeftThrottle",
+        "arg_number": 104,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "RightThrottle",
+        "controller": "RightThrottle",
+        "arg_number": 105,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "LeftFingerLift",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "params": [
+            0.0
+        ],
+        "controller": "FingerLift",
+        "arg_number": 495,
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "RightFingerLift",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "params": [
+            1.0
+        ],
+        "controller": "FingerLift",
+        "arg_number": 496,
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "VoltmeterU",
+        "controller": "VoltmeterU",
+        "arg_number": 400,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            16.0,
+            30.0
+        ]
+    },
+    {
+        "name": "VoltmeterE",
+        "controller": "VoltmeterE",
+        "arg_number": 401,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            16.0,
+            30.0
+        ]
+    },
+    {
+        "name": "HydIndLeft",
+        "controller": "HydIndLeft",
+        "arg_number": 310,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            5000.0
+        ]
+    },
+    {
+        "name": "HydIndRight",
+        "controller": "HydIndRight",
+        "arg_number": 311,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            5000.0
+        ]
+    },
+    {
+        "name": "HydIndBrake",
+        "controller": "HydIndBrake",
+        "arg_number": 242,
+        "output": [
+            0.0,
+            0.036,
+            0.338,
+            0.636,
+            0.924,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1000.0,
+            2000.0,
+            3000.0,
+            4000.0,
+            5000.0
+        ]
+    },
+    {
+        "name": "EmergGearDownHandle",
+        "controller": "EmergGearDownHandle",
+        "arg_number": 228,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "EmergParkBrakeHandle",
+        "controller": "EmergParkBrakeHandle",
+        "arg_number": 240,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "Altimeter_100_footPtr",
+        "controller": "Altimeter100ftPtr",
+        "arg_number": 218,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1000.0
+        ]
+    },
+    {
+        "name": "Altimeter_10000_footCount",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "params": [
+            1.0
+        ],
+        "controller": "AltimeterDrumCounter",
+        "arg_number": 220,
+        "input": [
+            0.0,
+            9.0
+        ]
+    },
+    {
+        "name": "Altimeter_1000_footCount",
+        "output": [
+            0.9,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "params": [
+            0.0
+        ],
+        "controller": "AltimeterDrumCounter",
+        "arg_number": 219,
+        "input": [
+            -1.0,
+            0.0,
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "name": "pressure_setting_0",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "params": [
+            0.0
+        ],
+        "controller": "AltimeterPressureDrumCounter",
+        "arg_number": 221,
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "name": "pressure_setting_1",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "params": [
+            1.0
+        ],
+        "controller": "AltimeterPressureDrumCounter",
+        "arg_number": 222,
+        "input": [
+            0.0,
+            10.0
+        ]
+    },
+    {
+        "name": "pressure_setting_2",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "params": [
+            2.0
+        ],
+        "controller": "AltimeterPressureDrumCounter",
+        "arg_number": 223,
+        "input": [
+            26.0,
+            31.0
+        ]
+    },
+    {
+        "name": "Airspeed",
+        "controller": "AirSpeedIndicator",
+        "arg_number": 217,
+        "output": [
+            0.0,
+            0.0445,
+            0.15,
+            0.348,
+            0.586,
+            0.636,
+            0.673,
+            0.715,
+            0.748,
+            0.782,
+            0.819,
+            0.849,
+            0.87,
+            0.898,
+            0.922,
+            0.95,
+            0.976,
+            1.0
+        ],
+        "input": [
+            0.0,
+            60.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0,
+            400.0,
+            450.0,
+            500.0,
+            550.0,
+            600.0,
+            650.0,
+            700.0,
+            750.0,
+            800.0,
+            850.0
+        ]
+    },
+    {
+        "name": "Variometer",
+        "controller": "Variometer",
+        "arg_number": 225,
+        "output": [
+            -1.0,
+            -0.83,
+            -0.73,
+            -0.605,
+            -0.4,
+            -0.22,
+            0.0,
+            0.22,
+            0.4,
+            0.605,
+            0.73,
+            0.83,
+            1.0
+        ],
+        "input": [
+            -6000.0,
+            -4000.0,
+            -3000.0,
+            -2000.0,
+            -1000.0,
+            -500.0,
+            0.0,
+            500.0,
+            1000.0,
+            2000.0,
+            3000.0,
+            4000.0,
+            6000.0
+        ]
+    },
+    {
+        "name": "CLOCK_currtime_hours",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "params": [
+            1.0
+        ],
+        "controller": "CLOCK_currtime",
+        "arg_number": 278,
+        "input": [
+            0.0,
+            12.0
+        ]
+    },
+    {
+        "name": "CLOCK_currtime_minutes",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "params": [
+            0.0
+        ],
+        "controller": "CLOCK_currtime",
+        "arg_number": 279,
+        "input": [
+            0.0,
+            60.0
+        ]
+    },
+    {
+        "name": "CLOCK_elapsed_time_minutes",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "params": [
+            1.0
+        ],
+        "controller": "CLOCK_elapsed_time",
+        "arg_number": 281,
+        "input": [
+            0.0,
+            60.0
+        ]
+    },
+    {
+        "name": "CLOCK_elapsed_time_seconds",
+        "output": [
+            0.0,
+            1.0
+        ],
+        "params": [
+            0.0
+        ],
+        "controller": "CLOCK_elapsed_time",
+        "arg_number": 280,
+        "input": [
+            0.0,
+            60.0
+        ]
+    },
+    {
+        "name": "Min_Height_Indicator_ID2163A",
+        "controller": "MinHeightIndicatorID2163A",
+        "arg_number": 287,
+        "output": [
+            0.0,
+            0.031,
+            0.525,
+            0.802,
+            0.982
+        ],
+        "input": [
+            -0.03,
+            0.0,
+            0.5,
+            0.8,
+            1.0
+        ]
+    },
+    {
+        "name": "Altitude_Pointer_ID2163A",
+        "controller": "AltitudePointerID2163A",
+        "arg_number": 286,
+        "output": [
+            0.0,
+            0.048,
+            0.171,
+            0.296,
+            0.416,
+            0.53,
+            0.616,
+            0.706,
+            0.799,
+            0.886,
+            0.974,
+            0.98
+        ],
+        "input": [
+            -10.0,
+            0.0,
+            100.0,
+            200.0,
+            300.0,
+            400.0,
+            600.0,
+            800.0,
+            1000.0,
+            3000.0,
+            5000.0,
+            5100.0
+        ]
+    },
+    {
+        "name": "OFF_Flag_ID2163A",
+        "controller": "OffFlagID2163A",
+        "arg_number": 288,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "Red_Lamp_ID2163A",
+        "controller": "RedLampID2163A",
+        "arg_number": 290,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "Green_Lamp_ID2163A",
+        "controller": "GreenLampID2163A",
+        "arg_number": 289,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "SAI_Pitch",
+        "controller": "SAI_Pitch",
+        "arg_number": 205,
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            "-math.pi / 2.0",
+            "math.pi / 2.0"
+        ]
+    },
+    {
+        "name": "SAI_Bank",
+        "controller": "SAI_Bank",
+        "arg_number": 206,
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            "-math.pi",
+            "math.pi"
+        ]
+    },
+    {
+        "name": "SAI_attitude_warning_flag",
+        "controller": "SAI_Off_flag",
+        "arg_number": 209,
+        "output": [
+            0.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "SAI_manual_pitch_adjustment",
+        "controller": "SAI_manual_pitch",
+        "arg_number": 210,
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "name": "SAI_SlipBall",
+        "controller": "SAI_SlipBall",
+        "arg_number": 207,
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "name": "SAI_RateOfTurn",
+        "controller": "SAI_RateOfTurn",
+        "arg_number": 208,
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -3.0,
+            3.0
+        ]
+    },
+    {
+        "name": "SAI_vertical_pointer",
+        "controller": "SAI_vertical_pointer",
+        "arg_number": 211,
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "name": "SAI_horisontal_pointer",
+        "controller": "SAI_horisontal_pointer",
+        "arg_number": 212,
+        "output": [
+            -1.0,
+            1.0
+        ],
+        "input": [
+            -1.0,
+            1.0
+        ]
+    },
+    {
+        "name": "CockpitPressureAltimeter",
+        "controller": "CockpitPressureAltimeter",
+        "arg_number": 285,
+        "output": [
+            0.0,
+            0.117,
+            0.2245,
+            0.3225,
+            0.411,
+            0.506,
+            0.609,
+            0.717,
+            0.823,
+            0.914,
+            1.0
+        ],
+        "input": [
+            0.0,
+            5000.0,
+            10000.0,
+            15000.0,
+            20000.0,
+            25000.0,
+            30000.0,
+            35000.0,
+            40000.0,
+            45000.0,
+            50000.0
+        ]
+    }
+]
