@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+
+import csv
+import sys
+
+replace = { 
+    'Diameter': 'Body diameter',
+    'Diameter (missile)': 'Body diameter',
+    'Fuzes': 'Fuze type',
+    'Length (missile)': 'Length',
+    'Max range': 'Range',
+    'Max speed': 'Speed',
+    'Range max': 'Range',
+    'Warhead type': 'Warhead',
+    'Width': 'Body diameter',
+    'Wing span': 'Wingspan',
+}
+
+delete = { 'Unit cost', 'User' }    
+
+class MEItem(dict):
+    def __init__(self, f):
+        self['Name'] = f.readline().strip()
+        f.readline()
+        f.readline()
+        f.readline()
+        #self['Illustration'] = f.readline().strip()
+        #self['Model'] = f.readline().strip()
+        #self['Unittype'] = f.readline().strip()
+        f.readline()
+        self.info = {}
+        k = None 
+        for line in f:
+            line = line.strip()
+            if line == '':
+                break
+            try:
+                k, v = line.split(':', 1)
+                k = k.capitalize()
+                try:
+                    k, unit = k.split(',', 1)
+                except ValueError:
+                    unit = ''
+                if k in replace:
+                    k = replace[k]
+                if k in delete: continue
+                self[k] = v.strip() + unit 
+                if self['Name'] == 'AIM-120C AMRAAM' and k == 'Range':
+                    break
+            except ValueError:
+                self[k] += line
+
+        self['Description'] = u''
+        for line in f:
+            self['Description'] += line.strip('\r\n')
+        
+
+meitems = []
+
+for fn in sys.argv[1:]:
+    f = open(fn, "r", encoding="UTF-8", errors='backslashreplace')
+    #print(fn)
+    meitems.append(MEItem(f))
+
+keywords = set()
+for i in meitems:
+    for k in i.keys():
+        keywords.add(k)
+keywords.remove('Name')
+keywords -= delete
+klist = []
+for k in keywords:
+    klist.append(k)
+klist.sort()
+for k in klist:
+    print(k)
+klist.insert(0, "Name")
+with open("weapons.csv", "w", newline='') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=klist)
+    writer.writeheader()
+    for i in meitems:
+        writer.writerow(i)
