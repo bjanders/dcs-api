@@ -3,10 +3,13 @@
 import csv
 import sys
 
-replace = { 
+replace = {
+    'Accuracy (cep)': 'Accuracy',
     'Diameter': 'Body diameter',
     'Diameter (missile)': 'Body diameter',
+    'Firing range': 'Range',
     'Fuzes': 'Fuze type',
+    'Impact accuracy': 'Accuracy',
     'Length (missile)': 'Length',
     'Max range': 'Range',
     'Max speed': 'Speed',
@@ -16,50 +19,58 @@ replace = {
     'Wing span': 'Wingspan',
 }
 
-delete = { 'Unit cost', 'User' }    
+delete = {'Unit cost', 'User'}
+
 
 class MEItem(dict):
     def __init__(self, f):
-        self['Name'] = f.readline().strip()
-        f.readline()
-        f.readline()
-        f.readline()
-        #self['Illustration'] = f.readline().strip()
-        #self['Model'] = f.readline().strip()
-        #self['Unittype'] = f.readline().strip()
-        f.readline()
+        name = f.readline().strip()
+        self['Short name'] = name
+        self['Name'] = name
+        f.readline()  # Illustration
+        f.readline()  # 3D model
+        f.readline()  # Unit type
+        # self['Illustration'] = f.readline().strip()
+        # self['Model'] = f.readline().strip()
+        # self['Unittype'] = f.readline().strip()
+        f.readline()  # Empty line
         self.info = {}
-        k = None 
+        k = None
         for line in f:
             line = line.strip()
             if line == '':
                 break
-            try:
+            if ':' in line:
                 k, v = line.split(':', 1)
                 k = k.capitalize()
-                try:
+                if ',' in k:
                     k, unit = k.split(',', 1)
-                except ValueError:
+                else:
                     unit = ''
                 if k in replace:
                     k = replace[k]
-                if k in delete: continue
-                self[k] = v.strip() + unit 
+                if k in delete:
+                    continue
+                if v.strip() == '':
+                    continue
                 if self['Name'] == 'AIM-120C AMRAAM' and k == 'Range':
                     break
-            except ValueError:
-                self[k] += line
+                self[k] = v.strip() + unit
+            else:
+                # FIX: Add unit at the end
+                self[k] += ' ' + line
 
         self['Description'] = u''
         for line in f:
+            # FIX: Add newline if empty line
             self['Description'] += line.strip('\r\n')
-        
+
 
 meitems = []
 
 for fn in sys.argv[1:]:
     f = open(fn, "r", encoding="UTF-8", errors='backslashreplace')
-    #print(fn)
+    # print(fn)
     meitems.append(MEItem(f))
 
 keywords = set()
