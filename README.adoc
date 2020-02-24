@@ -1,0 +1,12 @@
+= dcs-api - Digital Combat Simulator API information
+
+This project primarily documents information on how to integrate with
+https://www.digitalcombatsimulator.com[Digital Combat Simulator]. This
+information may be useful, for example, if you want to integrate DCS with a
+physical cockpit or add your own extensions or mods to DCS. It seems there
+is no official API/programmers guide and bits and pieces of information
+is spread over the https://forums.eagle.ru/[Eagle Dynmamics Forums] and
+the Internet. Here some of that information is collected and duplicated.
+
+Good starting points are to read Scripts\Export.lua and API\DCS_ControlAPI.html
+in the DCS installation folder.
