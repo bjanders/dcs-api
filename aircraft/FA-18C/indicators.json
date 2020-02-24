@@ -1,0 +1,1211 @@
+{
+   "7" : {
+      "RWR_PrioritySetting" : [
+         "N"
+      ],
+      "RWR_BitFailures" : [
+         ""
+      ]
+   },
+   "2" : {
+      "CautionsAdvisoriesPlaceholder" : [
+         "",
+         {
+            "CautionsPlaceholder" : [
+               "",
+               []
+            ],
+            "AdvisoriesPlaceholder" : [
+               "",
+               {
+                  "AdvisoriesLine" : [
+                     "ADV-     BIT,FPAS,"
+                  ],
+                  "Advisories_mask_open2" : [
+                     ""
+                  ],
+                  "Advisories_mask_open1" : [
+                     ""
+                  ]
+               }
+            ]
+         }
+      ],
+      "_2__id:110" : [
+         ""
+      ],
+      "STA6_Line" : [
+         ""
+      ],
+      "_2__id:87" : [
+         ""
+      ],
+      "MainLineLeftUP" : [
+         ""
+      ],
+      "Gun_Data_Rounds" : [
+         "578"
+      ],
+      "Missle_Symbol_STA9" : [
+         ""
+      ],
+      "       _1__id:115" : [
+         "",
+         []
+      ],
+      "_2__id:95" : [
+         ""
+      ],
+      "STA9_Label_02" : [
+         "9M"
+      ],
+      "_1__id:52" : [
+         ""
+      ],
+      "Master_Arm_Status" : [
+         "ARM"
+      ],
+      "       _1__id:118" : [
+         "",
+         []
+      ],
+      "STA3_Line" : [
+         ""
+      ],
+      "_1__id:46" : [
+         ""
+      ],
+      "DATA_1__id:146" : [
+         "DATA"
+      ],
+      "_2__id:83" : [
+         ""
+      ],
+      "_2__id:139" : [
+         ""
+      ],
+      "       _1__id:112" : [
+         "",
+         []
+      ],
+      "MainLineRightUP" : [
+         ""
+      ],
+      "STA1_Label_02" : [
+         "9M"
+      ],
+      "MENU_1__id:1" : [
+         "4633"
+      ],
+      "STA2_Line" : [
+         ""
+      ],
+      "_2__id:92" : [
+         ""
+      ],
+      "STA5_Label_02" : [
+         ""
+      ],
+      "_2__id:106" : [
+         ""
+      ],
+      "       _1__id:124" : [
+         "",
+         []
+      ],
+      "STA5_Label_01" : [
+         ""
+      ],
+      "MainLineLeftBottom" : [
+         ""
+      ],
+      "Background_Mask" : [
+         ""
+      ],
+      "GUN_1__id:127" : [
+         "G",
+         "U",
+         "N"
+      ],
+      "       _1__id:121" : [
+         "",
+         []
+      ],
+      "TONE_1__id:148" : [
+         "TONE"
+      ],
+      "MainLineRightBottom" : [
+         ""
+      ],
+      "Missle_Symbol_STA1" : [
+         ""
+      ],
+      "STA8_Line" : [
+         ""
+      ],
+      "STA4_Line" : [
+         ""
+      ],
+      "STA7_Line" : [
+         ""
+      ],
+      "_1__id:67" : [
+         ""
+      ]
+   },
+   "6" : {
+      "UFC_MainDummy" : [
+         "",
+         {
+            "UFC_mask" : [
+               "",
+               {
+                  "UFC_OptionDisplay3" : [
+                     ""
+                  ],
+                  "UFC_OptionCueing4" : [
+                     ""
+                  ],
+                  "UFC_OptionDisplay2" : [
+                     ""
+                  ],
+                  "UFC_ScratchPadNumberDisplay" : [
+                     ""
+                  ],
+                  "UFC_OptionCueing3" : [
+                     ""
+                  ],
+                  "UFC_OptionCueing2" : [
+                     ""
+                  ],
+                  "UFC_OptionCueing1" : [
+                     ""
+                  ],
+                  "UFC_Comm1Display" : [
+                     " 1"
+                  ],
+                  "UFC_OptionDisplay1" : [
+                     ""
+                  ],
+                  "UFC_OptionCueing5" : [
+                     ""
+                  ],
+                  "UFC_ScratchPadString2Display" : [
+                     ""
+                  ],
+                  "UFC_OptionDisplay5" : [
+                     ""
+                  ],
+                  "UFC_ScratchPadString1Display" : [
+                     ""
+                  ],
+                  "UFC_Comm2Display" : [
+                     " 1"
+                  ],
+                  "UFC_OptionDisplay4" : [
+                     ""
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "3" : {
+      "RF_channel" : [
+         "C11"
+      ],
+      "RDR_PPLI_Keeper" : [
+         ""
+      ],
+      "AC_Mach_placeholder" : [
+         "",
+         {
+            "AC_Mach_numerics" : [
+               "0.99"
+            ]
+         }
+      ],
+      "ERASE_1__id:17" : [
+         "ERASE"
+      ],
+      "AOT_zone_line" : [
+         ""
+      ],
+      "RangeDecrementArrow" : [
+         ""
+      ],
+      "RDR_AA_EW_Root" : [
+         "",
+         []
+      ],
+      "NCTR_1_box__id:26" : [
+         ""
+      ],
+      "rng_speed_ref_lines_placeholder_4_gaps" : [
+         "",
+         {
+            "rng_speed_ref_line_center_right_4_gaps" : [
+               ""
+            ],
+            "rng_speed_line_rifht_right_4_gaps" : [
+               ""
+            ],
+            "rng_speed_ref_line_center_left_4_gaps" : [
+               ""
+            ],
+            "rng_speed_line_rifht_left_4_gaps" : [
+               ""
+            ],
+            "rng_speed_line_left_left_4_gaps" : [
+               ""
+            ],
+            "rng_speed_line_left_right_4_gaps" : [
+               ""
+            ]
+         }
+      ],
+      "Radar_border" : [
+         ""
+      ],
+      "B_sweep" : [
+         ""
+      ],
+      "Radar_operating_condition" : [
+         "OPR"
+      ],
+      "BullseyeBRAData" : [
+         "BRA 323°/18.3"
+      ],
+      "RadarModePlaceholder" : [
+         "",
+         {
+            "Radar_mode" : [
+               "RWS"
+            ]
+         }
+      ],
+      "Background_Mask" : [
+         ""
+      ],
+      "RDR_FF_Keeper" : [
+         ""
+      ],
+      "AC_heading" : [
+         "021°"
+      ],
+      "B_sweep_pos" : [
+         "",
+         []
+      ],
+      "Radar_sensitivity" : [
+         "7"
+      ],
+      "RangeIncrementArrow" : [
+         ""
+      ],
+      " DATA _1__id:27" : [
+         " DATA "
+      ],
+      "NCTR_1__id:25" : [
+         "N",
+         "C",
+         "T",
+         "R"
+      ],
+      "MENU_1__id:1" : [
+         "4633"
+      ],
+      "Elevation_caret_placeholder" : [
+         "",
+         {
+            "Elevation_caret_line2" : [
+               ""
+            ],
+            "Elevation_caret_line1" : [
+               ""
+            ]
+         }
+      ],
+      "RWS_PB" : [
+         "",
+         {
+            "AzimuthScan_Main" : [
+               "",
+               {
+                  "MODE_1__id:31" : [
+                     "MODE"
+                  ],
+                  "140°_1__id:30" : [
+                     "140°"
+                  ]
+               }
+            ]
+         }
+      ],
+      "ElevationLines_PH" : [
+         "",
+         {
+            "elev_ref_line_short_lower_0" : [
+               ""
+            ],
+            "elev_ref_line_long_2" : [
+               ""
+            ],
+            "elev_ref_line_long_0" : [
+               ""
+            ],
+            "elev_ref_line_short_lower_1" : [
+               ""
+            ],
+            "elev_ref_line_long_1" : [
+               ""
+            ],
+            "elev_ref_line_short_upper_1" : [
+               ""
+            ],
+            "elev_ref_line_short_upper_0" : [
+               ""
+            ]
+         }
+      ],
+      "RDR_1__id:4" : [
+         "R",
+         "D",
+         "R"
+      ],
+      "SURF_1__id:6" : [
+         "S",
+         "U",
+         "R",
+         "F"
+      ],
+      "AcquisitionCursorPlaceholder" : [
+         "",
+         {
+            "Acquisition_cursor_line_left_base" : [
+               "",
+               {
+                  "Acquisition_cursor_line_left_additional_2" : [
+                     ""
+                  ],
+                  "Acquisition_cursor_line_left_additional_1" : [
+                     ""
+                  ]
+               }
+            ],
+            "ScanAltitudeLimitUpper" : [
+               " 7"
+            ],
+            "ScanAltitudeLimitLower" : [
+               " 7"
+            ],
+            "Acquisition_cursor_line_right_base" : [
+               "",
+               {
+                  "Acquisition_cursor_line_right_additional_1" : [
+                     ""
+                  ],
+                  "Acquisition_cursor_line_right_additional_2" : [
+                     ""
+                  ]
+               }
+            ]
+         }
+      ],
+      "PDI_1__id:1" : [
+         "INTL",
+         {
+            "Instantaneous_PRF" : [
+               "MED"
+            ]
+         }
+      ],
+      "PRI_2__id:5" : [
+         "P",
+         "R",
+         "I"
+      ],
+      " _1__id:7" : [
+         " "
+      ],
+      " SIL _1__id:13" : [
+         " SIL "
+      ],
+      "AC_altitude_placeholder" : [
+         "",
+         {
+            "AC_altitude_above_1000_thousands" : [
+               " 6"
+            ],
+            "AC_altitude_above_1000_hund_tenths" : [
+               "460"
+            ]
+         }
+      ],
+      "RadarRange_VS_scaleMin" : [
+         "0"
+      ],
+      "ElevBarScan_Main" : [
+         "",
+         {
+            "1B_1__id:3" : [
+               "1B",
+               {
+                  "Elevation_bar_number" : [
+                     "1"
+                  ]
+               }
+            ]
+         }
+      ],
+      "az_ref_lines_placeholder_cmn" : [
+         "",
+         {
+            "az_ref_line_center_bottom_lower" : [
+               ""
+            ],
+            "az_ref_lines_placeholder_rng" : [
+               "",
+               {
+                  "az_ref_line_center_top_with_AOT" : [
+                     ""
+                  ],
+                  "az_ref_line_rifht_top_with_AOT_1" : [
+                     ""
+                  ],
+                  "az_ref_line_rifht_top_with_AOT_2" : [
+                     ""
+                  ],
+                  "az_ref_line_left_top_with_AOT_2" : [
+                     ""
+                  ],
+                  "az_ref_line_left_top_with_AOT_1" : [
+                     ""
+                  ]
+               }
+            ],
+            "az_ref_line_rifht_bottom_lower_1" : [
+               ""
+            ],
+            "az_ref_line_left_bottom_lower_1" : [
+               ""
+            ],
+            "az_ref_line_left_bottom_lower_2" : [
+               ""
+            ],
+            "az_ref_line_rifht_bottom_lower_2" : [
+               ""
+            ]
+         }
+      ],
+      "RadarRange_VS_scaleMax" : [
+         "20"
+      ],
+      "CHAN_1__id:28" : [
+         "CHAN"
+      ],
+      "RSET_1__id:24" : [
+         "R",
+         "S",
+         "E",
+         "T"
+      ],
+      "RDR_SURVEILLANCE_Keeper" : [
+         ""
+      ],
+      "AC_AirspeedPlaceholder" : [
+         "",
+         {
+            "AC_airspeed" : [
+               " 584"
+            ]
+         }
+      ]
+   },
+   "5" : {
+      "txt_CLOCK_H" : [
+         "18"
+      ],
+      "FFTexture" : [
+         ""
+      ],
+      "txt_FF_L" : [
+         "102"
+      ],
+      "RPointerTexture" : [
+         ""
+      ],
+      "R50Texture" : [
+         ""
+      ],
+      "R0Texture" : [
+         ""
+      ],
+      "TempTexture" : [
+         ""
+      ],
+      "txt_DD_4" : [
+         ":"
+      ],
+      "txt_CLOCK_S" : [
+         "44"
+      ],
+      "L0Texture" : [
+         ""
+      ],
+      "L100Texture" : [
+         ""
+      ],
+      "txt_RPM_R" : [
+         "98"
+      ],
+      "txt_OilPress_R" : [
+         "140"
+      ],
+      "txt_TEMP_R" : [
+         "845"
+      ],
+      "txt_DD_1" : [
+         ":"
+      ],
+      "txt_RPM_L" : [
+         "98"
+      ],
+      "R100Texture" : [
+         ""
+      ],
+      "BINGOTexture" : [
+         ""
+      ],
+      "txt_CLOCK_M" : [
+         "51"
+      ],
+      "LScaleTexture" : [
+         ""
+      ],
+      "RPMTexture" : [
+         ""
+      ],
+      "txt_OilPress_L" : [
+         "140"
+      ],
+      "txt_BINGO" : [
+         "0"
+      ],
+      "RScaleTexture" : [
+         ""
+      ],
+      "txt_FF_R" : [
+         "102"
+      ],
+      "txt_TEMP_L" : [
+         "845"
+      ],
+      "txt_DD_3" : [
+         ":"
+      ],
+      "LPointerTexture" : [
+         ""
+      ],
+      "txt_DD_2" : [
+         ":"
+      ],
+      "L50Texture" : [
+         ""
+      ],
+      "OILTexture" : [
+         ""
+      ],
+      "NOZTexture" : [
+         ""
+      ],
+      "txt_FUEL_UP" : [
+         "10110T"
+      ],
+      "txt_FUEL_DOWN" : [
+         "10110I"
+      ]
+   },
+   "4" : {
+      "MENU_1__id:1" : [
+         "4633"
+      ],
+      "Selected_heading_symbol" : [
+         "",
+         {
+            "Selected_heading_symbol_mark" : [
+               ""
+            ]
+         }
+      ],
+      "HSELData" : [
+         "000°"
+      ],
+      "HSI_Main_Root" : [
+         "",
+         {
+            "ACL_1__id:1" : [
+               "A",
+               "C",
+               "L"
+            ]
+         }
+      ],
+      "TRCInfo" : [
+         ""
+      ],
+      "HSI_Main_Root_PB_1_5" : [
+         "",
+         {
+            "ILS_1__id:4" : [
+               "I",
+               "L",
+               "S"
+            ],
+            "MODE_1__id:3" : [
+               "M",
+               "O",
+               "D",
+               "E"
+            ],
+            "TCN_1__id:6" : [
+               "T",
+               "C",
+               "N"
+            ],
+            "VEC_1__id:1" : [
+               "V",
+               "E",
+               "C"
+            ]
+         }
+      ],
+      "Background_Mask" : [
+         ""
+      ],
+      "videoSignal_MPD" : [
+         ""
+      ],
+      "HSELData_Label" : [
+         "HSEL"
+      ],
+      "HSI_Mask" : [
+         ""
+      ],
+      "RTC_ZuluTimeOfDay" : [
+         "14:51:44EI"
+      ],
+      "WYPT_Page_Number" : [
+         "0"
+      ],
+      "HSI_Main_Root_PB_6_10" : [
+         "",
+         {
+            "UPDT_1__id:9" : [
+               "UPDT"
+            ],
+            "_1__id:10" : [
+               "SCL/40"
+            ],
+            "MK1_1__id:11" : [
+               "MK1"
+            ],
+            "_1__id:8" : [
+               "POS/INS"
+            ],
+            "DATA_1__id:12" : [
+               "DATA"
+            ]
+         }
+      ],
+      "SENSORS_1__id:26" : [
+         "SENSORS"
+      ],
+      "TACANStationIdentification" : [
+         "   "
+      ],
+      "    _1__id:18" : [
+         "S",
+         "E",
+         "Q",
+         "1"
+      ],
+      "Symbol_124-arrow-up_id:15" : [
+         ""
+      ],
+      "TRCTime" : [
+         "00:01:34"
+      ],
+      "HSI_MaskClose" : [
+         ""
+      ],
+      "TIMEUFC_1__id:22" : [
+         "TIMEUFC"
+      ],
+      "WYPT_1__id:13" : [
+         "W",
+         "Y",
+         "P",
+         "T"
+      ],
+      "WPDSG_1__id:17" : [
+         "W",
+         "P",
+         "D",
+         "S",
+         "G"
+      ],
+      "Track_and_North_Up_Root" : [
+         "",
+         {
+            "Track_and_North_Up" : [
+               "",
+               {
+                  "HSI_Compass_Track_and_North_Up.5" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.16" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up1212" : [
+                     "12"
+                  ],
+                  "HSI_Compass_Track_and_North_Up2121" : [
+                     "21"
+                  ],
+                  "HSI_Compass_Track_and_North_Up.35" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.19" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up66" : [
+                     "6"
+                  ],
+                  "HSI_Compass_Track_and_North_Up.25" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.4" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.14" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.22" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_UpW27" : [
+                     "W"
+                  ],
+                  "HSI_Compass_Track_and_North_Up.31" : [
+                     "."
+                  ],
+                  "WYPTMarkRootNTU" : [
+                     "",
+                     {
+                        "WYPTMark_StationSymbol" : [
+                           ""
+                        ],
+                        "WYPTMark_Back_NUT" : [
+                           ""
+                        ],
+                        "WYPTMark_Front_NUT" : [
+                           ""
+                        ]
+                     }
+                  ],
+                  "HSI_Compass_Track_and_North_Up33" : [
+                     "3"
+                  ],
+                  "HSI_Compass_Track_and_North_UpE9" : [
+                     "E"
+                  ],
+                  "HSI_Compass_Track_and_North_Up.23" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.2" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.29" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.11" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.17" : [
+                     "."
+                  ],
+                  "Ground_Track_Pointer_TN_UP_Root" : [
+                     "",
+                     {
+                        "Ground_Track_Pointer_TN_UP" : [
+                           ""
+                        ]
+                     }
+                  ],
+                  "HSI_Compass_Track_and_North_Up.26" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.10" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up3333" : [
+                     "33"
+                  ],
+                  "HSI_Compass_Track_and_North_Up3030" : [
+                     "30"
+                  ],
+                  "HSI_Compass_Track_and_North_Up2424" : [
+                     "24"
+                  ],
+                  "HSI_Compass_Track_and_North_Up.28" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.7" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.1" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.8" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.32" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_UpS18" : [
+                     "S"
+                  ],
+                  "HSI_Compass_Track_and_North_Up.34" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_Up.20" : [
+                     "."
+                  ],
+                  "HSI_Compass_Track_and_North_UpN0" : [
+                     "N"
+                  ],
+                  "HSI_Compass_Track_and_North_Up1515" : [
+                     "15"
+                  ],
+                  "HSI_Compass_Track_and_North_Up.13" : [
+                     "."
+                  ]
+               }
+            ],
+            "GroundSpeed_TN_UP_Mode" : [
+               "629G"
+            ],
+            "aircraft_Track_and_North_UP" : [
+               "",
+               {
+                  "HSI_LubberLine_Root" : [
+                     "",
+                     {
+                        "HSI_LubberLine" : [
+                           ""
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "TrueSpeed_TN_UP_Mode" : [
+               "649T"
+            ]
+         }
+      ],
+      "Symbol_124-arrow-down_id:16" : [
+         ""
+      ],
+      "AUTO_1__id:20" : [
+         "AUTO"
+      ],
+      "TRCData" : [
+         "194°/ 17.0"
+      ],
+      "CSELData_Label" : [
+         "CSEL"
+      ]
+   },
+   "1" : {
+      "HUD_glass_lower" : [
+         ""
+      ],
+      "HUD_ewPlaceholder" : [
+         "",
+         []
+      ],
+      "HUD_glass_upper" : [
+         ""
+      ],
+      "GhostVelVec_mask_open" : [
+         ""
+      ],
+      "waterline_origin" : [
+         "",
+         {
+            "ALT_BoxOrigin" : [
+               "",
+               {
+                  "VerticalVelocity" : [
+                     " -990"
+                  ]
+               }
+            ],
+            "CAS_BoxOrigin" : [
+               "",
+               []
+            ]
+         }
+      ],
+      "rightWindowsBlock" : [
+         "",
+         []
+      ],
+      "VelVec_origin" : [
+         "",
+         {
+            "velocity_vector" : [
+               "",
+               []
+            ]
+         }
+      ],
+      "upper_right_reflection" : [
+         ""
+      ],
+      "upper_left_reflection" : [
+         ""
+      ],
+      "FPPL_mask_open" : [
+         ""
+      ],
+      "GhostVelVec_mask_close" : [
+         ""
+      ],
+      "alpha_mach_g_placeholder" : [
+         "",
+         {
+            "G_symbol" : [
+               "G"
+            ],
+            "alpha_symbol" : [
+               ""
+            ],
+            "Mach_numerics" : [
+               "0.99"
+            ],
+            "alpha_numerics" : [
+               "0.9"
+            ],
+            "Mach_symbol" : [
+               "M"
+            ],
+            "G_numerics" : [
+               "1.0"
+            ]
+         }
+      ],
+      "lower_left_reflection" : [
+         ""
+      ],
+      "HUD_RTC" : [
+         "14:51:44EI"
+      ],
+      "lower_right_reflection" : [
+         ""
+      ],
+      "FPPL_origin" : [
+         "",
+         {
+            "FPPL_pitch_line_negative_-10_origin" : [
+               "",
+               {
+                  "FPPL_pitch_line_negative_-10_tick_left" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_negative_-10_tick_right" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_negative_-10_numerics_left" : [
+                     "10"
+                  ],
+                  "FPPL_pitch_line_negative_-10_numerics_right" : [
+                     "10"
+                  ],
+                  "FPPL_pitch_line_negative_-10_hor_right" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_negative_-10_hor_left" : [
+                     ""
+                  ]
+               }
+            ],
+            "FPPL_pitch_line_positive_5_origin" : [
+               "",
+               {
+                  "FPPL_pitch_line_positive_5_tick_right" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_positive_5_tick_left" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_positive_5_numerics_right" : [
+                     "5"
+                  ],
+                  "FPPL_pitch_line_positive_5_hor_left" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_positive_5_hor_right" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_positive_5_numerics_left" : [
+                     "5"
+                  ]
+               }
+            ],
+            "FPPL_horizon_short_line_origin" : [
+               "",
+               {
+                  "FPPL_horizon_short_line_tick_right" : [
+                     ""
+                  ],
+                  "FPPL_horizon_short_line_hor_left" : [
+                     ""
+                  ],
+                  "FPPL_horizon_short_line_tick_left" : [
+                     ""
+                  ],
+                  "FPPL_horizon_short_line_hor_right" : [
+                     ""
+                  ]
+               }
+            ],
+            "FPPL_pitch_line_negative_-5_origin" : [
+               "",
+               {
+                  "FPPL_pitch_line_negative_-5_hor_left" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_negative_-5_tick_right" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_negative_-5_numerics_left" : [
+                     "5"
+                  ],
+                  "FPPL_pitch_line_negative_-5_tick_left" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_negative_-5_hor_right" : [
+                     ""
+                  ],
+                  "FPPL_pitch_line_negative_-5_numerics_right" : [
+                     "5"
+                  ]
+               }
+            ]
+         }
+      ],
+      "FPPL_mask_close" : [
+         ""
+      ],
+      "BankScale_origin" : [
+         "",
+         {
+            "BankScaleCardinalTick_2" : [
+               ""
+            ],
+            "BankTriangle" : [
+               ""
+            ],
+            "BankScaleCardinalTick_5" : [
+               ""
+            ],
+            "BankScaleCardinalTick_6" : [
+               ""
+            ],
+            "BankScaleCardinalTick_0" : [
+               ""
+            ],
+            "BankScaleCardinalTick_3" : [
+               ""
+            ],
+            "BankScaleCardinalTick_1" : [
+               ""
+            ],
+            "BankScaleShortTick_1" : [
+               ""
+            ],
+            "BankScaleCardinalTick_4" : [
+               ""
+            ],
+            "BankScaleShortTick_0" : [
+               ""
+            ]
+         }
+      ],
+      "headingScaleOrigin" : [
+         "",
+         {
+            "headingScaleHorizonalOriginLong" : [
+               "",
+               {
+                  "HeadingTickLong_1" : [
+                     ""
+                  ],
+                  "HeadingNumerics_2" : [
+                     "010"
+                  ],
+                  "HeadingNumerics_1" : [
+                     "000"
+                  ],
+                  "HeadingNumerics_3" : [
+                     "020"
+                  ],
+                  "HeadingTickLong_2" : [
+                     ""
+                  ],
+                  "HeadingTickLong_3" : [
+                     ""
+                  ]
+               }
+            ],
+            "headingScaleIndexOrigin" : [
+               "",
+               {
+                  "headingScaleIndexType1_Origin" : [
+                     "",
+                     {
+                        "headingScaleIndex_placeholder" : [
+                           "",
+                           {
+                              "headingScaleIndex_line2" : [
+                                 ""
+                              ],
+                              "headingScaleIndex_line1" : [
+                                 ""
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "headingScaleHorizonalOriginShort" : [
+               "",
+               {
+                  "HeadingTickShort_3" : [
+                     ""
+                  ],
+                  "HeadingTickShort_1" : [
+                     ""
+                  ],
+                  "HeadingTickShort_2" : [
+                     ""
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}
