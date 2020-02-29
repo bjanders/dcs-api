@@ -10,3 +10,42 @@ the Internet. Here some of that information is collected and duplicated.
 
 Good starting points are to read Scripts\Export.lua and API\DCS_ControlAPI.html
 in the DCS installation folder.
+
+Information about devices, commands and gagues are in the link:aircraft[aircraft] folder.
+
+== Tools
+
+Some link:tools[tools] are included to extact information from the DCS folders. I run the
+tools from Ubuntu in Windows.
+
+getgauges::
+This is extracts the gauges and prints them out as a JSON file. Run the tool as:
++
+[source]
+----
+getgagues /mnt/c/Program\ Files/Eagle\ Dynamics/DCS\ World/Mods/aircraft/Ka-50/Cockpit/Scripts/mainpanel_init.lua > ../aircraft/Ka-50/gauges.json
+----
++
+Replace "Ka-50" with the module you want.
+
+getdevices.lua::
+This gets the devices as a compact JSON file. You might want to pretty print the JSON file. 
+For example, run it like this:
++
+[source]
+----
+lua getdevices.lua Ka-50 | json_pp > ../aircraft/Ka-50/devices.json
+----
++
+The script assumes your installation is the folder "C:\Program Files\Eagle Dynamics\DCS World".
+
+getcommands:lua::
+This gets the commands as a compact JSON file. You might want to pretty print this as well.
+For example:
++
+[source]
+----
+lua getcommands.lua Ka-50 | json_pp > ../aircraft/Ka-50/commands.json
+----
++
+Unfortunatley some aircraft has very generic names such as "Button_1".
